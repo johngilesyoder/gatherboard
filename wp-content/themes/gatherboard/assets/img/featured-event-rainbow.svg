@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="816px" height="200px" viewBox="0 0 816 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="91.7849171%" y1="8.21508291%" x2="11.716757%" y2="88.283243%" id="linearGradient-1">
+            <stop stop-color="#8DB4D9" offset="2.68654337%"></stop>
+            <stop stop-color="#97DECA" offset="46.9308036%"></stop>
+            <stop stop-color="#F6FFA1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="1.48676658%" y2="98.5132334%" id="linearGradient-2">
+            <stop stop-color="#0C5FAF" offset="0%"></stop>
+            <stop stop-color="#00845E" offset="51.5266263%"></stop>
+            <stop stop-color="#B9C555" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-624.000000, -562.000000)" id="HERO">
+            <g>
+                <g id="EVENT" transform="translate(624.000000, 562.000000)">
+                    <g id="Group-20">
+                        <path d="M395.170823,102.117188 C587.061899,69.5468748 816,80 816,80 L816,200 L0,200 C0,200 203.279748,134.687501 395.170823,102.117188 Z" id="Rectangle-6" fill="url(#linearGradient-1)"></path>
+                        <path d="M448.518029,62.640625 C607.755148,16.1713867 816,0 816,0 L816,200 L162.153846,200 C162.153846,200 289.28091,109.109863 448.518029,62.640625 Z" id="Rectangle-6" fill="url(#linearGradient-2)" opacity="0.65"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

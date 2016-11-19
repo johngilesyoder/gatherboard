@@ -1,0 +1,53 @@
+.blog-roll {
+  article {
+    margin: 0 0 30px;
+    height: 415px;
+    .post-img {
+      display: block;
+      background-size: cover;
+      background-position: 50% 50%;
+      height: 270px;
+      margin: 0 0 15px;
+    }
+    .post-details {
+      .post-category {
+        font-size: 12px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        display: block;
+        margin: 0 0 8px;
+        font-weight: 500;
+      }
+      .post-title {
+        font-size: 21px;
+        font-weight: 400;
+        margin: 0 0 8px;
+        a {
+          color: #333;
+        }
+      }
+      .post-meta {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

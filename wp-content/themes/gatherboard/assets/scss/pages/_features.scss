@@ -1,0 +1,98 @@
+.page-template-template-features {
+  .page-billboard {
+    margin: 0 0 0;
+  }
+  .features-section {
+    .section-title {
+      text-align: center;
+    }
+    &.section-grey {
+      background: $ltBlue;
+      padding: 60px 0 0;
+      margin: 0 0 60px;
+    }
+  }
+  .features-optimized {
+    background-image: url('assets/img/slant-bg-ltblue.svg');
+    background-size: 100%;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+    .features-video {
+      text-align: center;
+      margin: 0 0 60px;
+      .video-thumb {
+        background-color: #fff;
+        width: 720px;
+        height: 425px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        @extend .vertical-center-parent;
+        background-size: cover;
+        border: 10px solid #fff;
+        box-shadow: 0 15px 35px hsla(240,46,36,.1),0 5px 15px hsla(0,0,0,.07);
+        border-radius: 4px;
+      }
+      .btn-wrapper {
+        @extend .vertical-center;
+      }
+      .btn-play {
+        background: transparent;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        color: hsla(0,0,100,.7);
+        font-size: 90px;
+
+        &:hover {
+          color: hsla(0,0,100,1);
+        }
+      }
+    }
+    .lt-blue-wrapper {
+      background: $ltBlue;
+    }
+  }
+  .actions {
+    text-align: center;
+    margin: 30px 0;
+    .btn-action {
+      padding: 12px 60px;
+    }
+  }
+}
+
+.features-optimized .features-wrapper .feature .feature-icon {
+  background: #DAE7F3;
+  color: $blue;
+}
+
+.features-easy-to-use .features-wrapper .feature .feature-icon {
+  background: #F3E0DA;
+  color: $red;
+}
+
+.features-management .features-wrapper .feature .feature-icon {
+  background: #FDF1DC;
+  color: $orange;
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

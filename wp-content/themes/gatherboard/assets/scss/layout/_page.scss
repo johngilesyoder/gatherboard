@@ -1,0 +1,80 @@
+// page.scss
+// -----------------------------------------------------------------
+
+:focus {
+  outline: 0 !important;
+}
+
+body {
+
+}
+
+main {
+  margin: 0 0 60px;
+}
+
+.page-billboard {
+
+}
+
+.page-title {
+  font-size: 48px;
+}
+
+.section-title {
+  font-size: 48px;
+  margin: 0 0 40px;
+  letter-spacing: -.5px;
+  line-height: 1.25em;
+}
+
+
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      transition-property: opacity;
+    }
+    .item,
+    .active.left,
+    .active.right {
+      opacity: 0;
+    }
+    .active,
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+    .next,
+    .prev,
+    .active.left,
+    .active.right {
+      left: 0;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .carousel-control {
+    z-index: 2;
+  }
+}
+
+
+
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

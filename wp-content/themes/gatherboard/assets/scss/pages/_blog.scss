@@ -1,0 +1,64 @@
+// blog.scss
+// -----------------------------------------------------------------
+
+.page-blog,
+.archive.category {
+  .page-billboard {
+    margin: 0;
+  }
+  .categories {
+    border-bottom: 1px solid $border-color;
+    margin: 0 0 60px;
+  }
+  .blog-categories {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      display: inline-block;
+      margin-right: 35px;
+      a {
+        color: $text-color;
+        padding: 17px 0;
+        display: block;
+        text-decoration: none;
+        position: relative;
+      }
+      &.current-cat {
+        a {
+          font-weight: 500;
+          color: #000;
+          &:after {
+            content: '';
+            display: block;
+            height: 3px;
+            width: 100%;
+            background: #333;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

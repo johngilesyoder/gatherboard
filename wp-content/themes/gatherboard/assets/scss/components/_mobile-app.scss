@@ -1,0 +1,41 @@
+.mobile-app {
+  background: $ltBlue;
+  margin: 0 0 60px;
+  p:last-child {
+    margin: 0;
+  }
+  .app-devices-wrapper {
+    text-align: center;
+  }
+  .app-devices {
+    background-image: url('assets/img/app-devices.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 150px;
+    margin: 15px 0 0;
+    display: inline-block;
+  }
+  .app-description {
+    padding: 30px 0;
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

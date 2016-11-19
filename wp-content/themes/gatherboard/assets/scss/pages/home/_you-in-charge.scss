@@ -1,0 +1,97 @@
+.home-you-in-charge {
+  @include clearfix()
+  .quotes,
+  .check-list-wrapper {
+    float: left;
+    width: 50%;
+    height: 500px;
+  }
+  .check-list-wrapper {
+    padding: 30px;
+    color: #fff;
+    background: $darkNavy;
+    @extend .vertical-center-parent;
+    .check-list {
+      @extend .vertical-center;
+    }
+    .section-title {
+      font-size: 36px;
+      color: #fff;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        font-weight: 500;
+        border-bottom: 1px solid hsla(0,0,100,.15);
+        padding: 13px 0;
+        &:after {
+          content: '';
+          float: right;
+          background-image: url('assets/img/icon-check-green.svg');
+          background-size: cover;
+          width: 19px;
+          height: 14px;
+          display: inline-block;
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+  .quotes {
+    .item {
+      height: 500px;
+      background-size: cover;
+      background-position: 50% 50%;
+      padding: 0 120px;
+      @extend .vertical-center-parent;
+      .success-story-quote {
+        border: 0;
+        padding: 0;
+        @extend .vertical-center;
+      }
+    }
+    .carousel-control {
+      background: transparent;
+      text-align: center;
+      i {
+        font-size: 100px;
+        text-shadow: none;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+      }
+      &.left {
+        i {
+          left: 30px;
+        }
+      }
+      &.right {
+        i {
+          right: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

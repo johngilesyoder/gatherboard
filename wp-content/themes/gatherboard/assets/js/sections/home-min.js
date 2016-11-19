@@ -1,0 +1,1 @@
+!function($,e,n){$(function(){"use strict";$("#featured-events-wrapper").responsiveSlides({auto:!0,speed:500,timeout:4e3,pager:!0,nav:!1,pauseControls:!1,maxwidth:"",navContainer:"",manualControls:"",namespace:"rslides"})})}(jQuery,this);

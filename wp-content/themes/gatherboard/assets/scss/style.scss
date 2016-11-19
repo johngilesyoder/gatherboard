@@ -1,0 +1,61 @@
+/*
+Theme Name: Gatherboard
+Description: Theme for Gatherboard
+Version: 1.0.0
+Author: @johngilesyoder
+Author URI: http://www.twitter.com/johngilesyoder;
+Tags:
+*/
+
+* { -webkit-font-smoothing: antialiased; }
+
+
+@import "utilities/variables";
+@import "utilities/colors";
+
+// Bootstrap
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Utilities
+@import "utilities/buttons";
+@import "utilities/mixins";
+@import "utilities/wordpress-core";
+@import "utilities/z-index";
+
+// Components
+@import "components/billboard";
+@import "components/blog-footer";
+@import "components/blog-roll";
+@import "components/blog-sidebar";
+@import "components/cms-content";
+@import "components/features";
+@import "components/hr";
+@import "components/mobile-app";
+@import "components/pays-for-itself";
+@import "components/success-story-quote";
+
+// Layout
+@import "layout/archive";
+@import "layout/page";
+@import "layout/post";
+@import "layout/site-header";
+@import "layout/site-footer";
+
+// Pages
+@import "pages/home/built-for";
+@import "pages/home/features";
+@import "pages/home/hero";
+@import "pages/home/in-action";
+@import "pages/home/next-level";
+@import "pages/home/video";
+@import "pages/home/you-in-charge";
+@import "pages/404";
+@import "pages/about";
+@import "pages/blog";
+@import "pages/builtfor";
+@import "pages/contact";
+@import "pages/features";
+@import "pages/home";
+@import "pages/single";
+
+// Vendor

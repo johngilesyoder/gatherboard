@@ -1,0 +1,122 @@
+// site-footer.scss
+// -----------------------------------------------------------------
+
+.site-footer {
+  background: #F2F6F7;
+  color: #222;
+  padding: 60px 0;
+  .footer-about {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  .links-column {
+    h4 {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 0 0 10px;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      list-style-type: none;
+      li {
+        margin: 0 0 5px;
+        a {
+          color: #222;
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    border-top: 1px solid #E1E2E3;
+    padding: 30px 0 0;
+    margin: 60px 0 0;
+  }
+  .footer-copyright {
+    font-size: 16px;
+    color: #c3c6c6;
+    p {
+      display: inline-block;
+    }
+    ul {
+      display: inline-block;
+      margin: 0 0 0 15px;
+      padding: 0;
+      list-style-type: none;
+      li {
+        display: inline;
+        margin: 0 0 0 5px;
+        a {
+          color: #c3c6c6;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .footer-social {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    li {
+      display: inline-block;
+      margin-left: 10px;
+      a {
+        display: block;
+        background: $navy;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 1px;
+        &:hover {
+          background: #286091;
+        }
+      }
+    }
+  }
+}
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .site-footer {
+
+  }
+
+}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .site-footer {
+
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .site-footer {
+
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .site-footer {
+
+  }
+
+}

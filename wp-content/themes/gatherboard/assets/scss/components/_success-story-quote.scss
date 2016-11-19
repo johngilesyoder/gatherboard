@@ -1,0 +1,66 @@
+.success-story-quote {
+  border-color: #C1C4C5;
+  small {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0 0 8px;
+    display: block;
+    &:before {
+      display: none;
+    }
+  }
+  p {
+    font-style: italic;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  footer {
+    color: #333;
+    &:before {
+      margin-right: 5px;
+      display: inline-block;
+    }
+    cite {
+      font-size: 14px;
+      color: $text-color;
+      font-style: normal;
+      margin-left: 5px;
+    }
+  }
+  &.inverted {
+    border-color: #fff;
+    small {
+      color: #fff;
+    }
+    p {
+      color: #fff;
+    }
+    footer {
+      color: #fff;
+      cite {
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

@@ -1,0 +1,98 @@
+.blog-sidebar {
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    i {
+      color: $link-color;
+      margin-right: 5px;
+    }
+  }
+  .search-form {
+    position: relative;
+    margin: 0 0 40px;
+    .search-input {
+      border-radius: 23px;
+      font-size: 16px;
+      padding-left: 45px;
+    }
+    .search-submit {
+      position: absolute;
+      background: transparent;
+      border: 0;
+      top: 10px;
+      left: 15px;
+      padding: 0;
+      line-height: 1em;
+      img {
+        height: 18px;
+      }
+    }
+  }
+  .sidebar-get-started {
+    background: #25313F;
+    padding: 30px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 40px;
+    span {
+      &:after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 25%;
+        background: hsla(0,0,100,.4);
+        margin: 20px auto;
+      }
+    }
+    .btn-action {
+      padding: 7.5px 40px;
+    }
+  }
+  .sidebar-follow {
+    margin: 0 0 40px;
+    .social-networks {
+      display: flex;
+      flex-flow: row wrap;
+      .network {
+        margin: 0;
+        padding: 7px 5px;
+        display: inline-block;
+        background: $ltBlue;
+        width: 20%;
+        border: 2.5px solid #fff;
+        font-size: 27px;
+        text-align: center;
+        &:first-child {
+          border-left: 0;
+        }
+        &:last-child {
+          border-right: 0;
+        }
+      }
+    }
+  }
+  .popular-posts {
+    margin: 0 0 40px;
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

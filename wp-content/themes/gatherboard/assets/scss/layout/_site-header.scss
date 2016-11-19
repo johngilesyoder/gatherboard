@@ -1,0 +1,129 @@
+// site-header.scss
+// -----------------------------------------------------------------
+
+.site-header {
+  z-index: 100;
+  .border-wrapper {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .navbar-header {
+    .navbar-brand {
+      padding: 12.2px 0;
+      margin: 0;
+    }
+  }
+  .navbar-nav {
+    & > li {
+      &.current-menu-item a {
+        position: relative;
+        &:after {
+          content: '';
+          display: block;
+          height: 3px;
+          width: 100%;
+          background: $link-color;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+      & > a {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &:last-child {
+        a {
+          @extend .btn;
+          @extend .btn-outline;
+          font-size: 18px;
+          text-transform: none;
+          margin: 17.5px 0 17.5px 30px;
+          padding: 5.5px 30px;
+          border-radius: 30px;
+          &:hover {
+            color: #fff;
+            background-color: $link-hover-color;
+            border-color: $link-hover-color;
+          }
+        }
+      }
+    }
+    .dropdown-toggle {
+      .caret {
+        border: 0;
+        background-image: url('assets/img/icon-chevron-down-blue.svg');
+        background-size: cover;
+        width: 10px;
+        height: 7px;
+      }
+    }
+    .dropdown-menu {
+
+    }
+  }
+}
+
+.site-header.navbar-inverse {
+  .navbar-nav {
+    & > li {
+      &:last-child {
+        a {
+          color: #fff;
+          border-color: rgba(255,255,255,.5);
+          &:hover {
+            color: #222;
+            background: #fff;
+          }
+        }
+      }
+    }
+    .dropdown-toggle {
+      .caret {
+        background-image: url('assets/img/icon-chevron-down-white.svg');
+      }
+    }
+  }
+}
+
+.site-header.has-billboard {
+  position: absolute;
+  width: 100%;
+  .border-wrapper {
+    border-color: rgba(255,255,255,.3)
+  }
+  .navbar-nav {
+    & > li {
+      &.current-menu-item a {
+        &:after {
+          background: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .site-header {
+
+  }
+
+}

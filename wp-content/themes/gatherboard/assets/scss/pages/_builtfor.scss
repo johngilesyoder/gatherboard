@@ -1,0 +1,60 @@
+// about.scss
+// -----------------------------------------------------------------
+
+.page-template-template-builtfor {
+  .page-billboard {
+    .perfect-for {
+      margin: 30px 0;
+      span {
+        font-size: 14px;
+        display: inline-block;
+      }
+      i {
+        margin-left: 15px;
+      }
+    }
+  }
+  .page-content {
+    margin: 0 0 60px;
+  }
+  .check-list {
+    font-size: 21px;
+    font-weight: 500;
+    list-style-type: none;
+    margin: 0 0 60px;
+    padding: 0;
+    li {
+      margin: 0 0 30px;
+      &:before {
+        content: '';
+        background-image: url('assets/img/icon-check-list.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 15px;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

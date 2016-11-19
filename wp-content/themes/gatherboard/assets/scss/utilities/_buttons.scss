@@ -1,0 +1,93 @@
+// buttons.scss
+// -----------------------------------------------------------------
+
+.btn-strip {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 2px 15px;
+  border: 0;
+}
+
+.btn-secondary {
+  color: #fff;
+  // background-color: $;
+  &:hover {
+    color: #fff;
+    // background: darken($brown, 15%);
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid $link-color;
+  border-radius: 18px;
+  box-shadow: none;
+  color: $link-color;
+  padding: 4px 18px 4px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  &:hover {
+    background: #fff;
+    color: $link-color;
+    text-decoration: none;
+  }
+  &.btn-outline-blue {
+    color: $link-color;
+    border-color: $link-color;
+  }
+}
+
+.actions {
+  .btn {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7.5px 30px;
+  }
+  .btn-primary {
+    font-weight: 700;
+    border-radius: 100px;
+  }
+  .btn-link {
+
+  }
+}
+
+.btn-action {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 7.5px 30px;
+  font-weight: 700;
+  border-radius: 100px;
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

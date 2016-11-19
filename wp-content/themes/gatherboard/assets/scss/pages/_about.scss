@@ -1,0 +1,136 @@
+// about.scss
+// -----------------------------------------------------------------
+
+.page-template-template-about {
+  .about-company {
+    margin: 0 0 60px;
+    .company-content {
+      margin: 0 0 60px;
+    }
+    .company-photo {
+      height: 415px;
+      background-size: cover;
+      background-position: 50% 50%;
+
+    }
+    .license-holders {
+      height: 415px;
+      color: #fff;
+      text-align: center;
+      @extend .vertical-center-parent;
+      .license-holders-content {
+        @extend .vertical-center;
+      }
+      p {
+        font-size: 36px;
+        padding: 0 30px;
+        font-weight: 500;
+        line-height: 1em;
+        margin: 0;
+      }
+      a {
+        color: #fff;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: block;
+        font-weight: 400;
+        margin: 10px 0 0;
+      }
+    }
+  }
+  .about-founders {
+    margin: 0 0 60px;
+    .founder {
+      margin: 0 0 60px;
+      .founder-photo {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        background-color: #bbb;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: 50% 50%;
+        display: block;
+      }
+      .founder-name {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 15px 0;
+        display: block;
+      }
+      .founder-description {
+
+      }
+    }
+  }
+  .about-press {
+    margin: 0 0 60px;
+    .press-piece {
+      background: $ltBlue;
+      padding: 15px;
+      @include clearfix()
+      display: block;
+      margin: 0 0 30px;
+      .publication-logo {
+        width: 36px;
+        height: 36px;
+        background-size: cover;
+        background-position: 50% 50%;
+        float: left;
+        margin-right: 15px;
+      }
+      .press-details {
+        padding: 5px 0 0;
+        display: block;
+        float: left;
+      }
+      .publication-title {
+
+      }
+      .article-title {
+
+      }
+    }
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .page-template-template-about {
+
+  }
+
+}
+
+// Up to tablet
+@media (max-width: 767px) {
+
+  .page-template-template-about {
+
+  }
+
+}
+
+// Up to landscape phone
+@media (max-width: 480px) {
+
+  .page-template-template-about {
+
+  }
+
+}

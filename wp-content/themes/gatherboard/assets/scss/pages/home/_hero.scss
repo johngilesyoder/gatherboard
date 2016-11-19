@@ -1,0 +1,132 @@
+.home-hero {
+  background: #333;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 960px;
+  position: relative;
+  #event-bg {
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+  }
+  .hero-event-bg {
+    height: 960px;
+    width: 100%;
+  }
+  .hero-statement-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url('assets/img/hero-statement-tail.svg');
+    background-position: 0 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0 0 268px 153px;
+    .hero-statement {
+      background: hsla(209,5,50,.8);
+      color: #fff;
+      width: 900px;
+      border-radius: 16px;
+      padding: 30px;
+      h2 {
+        color: #fff;
+        font-weight: 300;
+        font-size: 42px;
+        margin: 5px 0 40px;
+        strong {
+          font-weight: 700;
+        }
+      }
+      .hero-actions {
+        .btn-action {
+          background: #fff;
+          font-size: 18px;
+          text-transform: uppercase;
+          color: $link-color;
+          border-radius: 100px;
+          font-weight: 700;
+          padding: 7.5px 30px;
+          margin-right: 10px;
+          &:hover {
+            color: $link-hover-color;
+          }
+        }
+      }
+    }
+  }
+  .featured-events-wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    text-align: right;
+    background-image: url('assets/img/featured-event-rainbow.svg');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    width: 816px;
+    height: 200px;
+    .featured-events-carousel-wrapper {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 30px 30px 0 30px;
+    }
+    .featured-event {
+      .event-title {
+        display: block;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 1;
+        i {
+          margin-right: 7px;
+        }
+      }
+      .event-location {
+        display: block;
+        font-size: 21px;
+      }
+    }
+    .carousel-indicators {
+      position: static;
+      text-align: right;
+      margin: 4px 0 12px;
+      width: 100%;
+      li {
+        background: #fff;
+        opacity: .2;
+        border: 0;
+        width: 8px;
+        height: 8px;
+        margin: 0 0 0 3px;
+        &.active {
+          opacity: 1;
+          border: 0;
+          width: 8px;
+          height: 8px;
+          margin: 0 0 0 3px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}
