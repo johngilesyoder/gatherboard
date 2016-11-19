@@ -1,1 +1,1 @@
-!function($,e,u){$(function(){"use strict";$("#featured-events").carousel({interval:2e4,pause:null,keyboard:!1}),$("#event-bg").carousel({interval:2e4,pause:null,keyboard:!1}),$("#carousel-quotes").carousel({interval:null,pause:null,keyboard:!1})})}(jQuery,this);
+!function($,e,u){$(function(){"use strict";$("#featured-events").carousel({interval:6e3,pause:null,keyboard:!1}),$("#event-bg").carousel({interval:6e3,pause:null,keyboard:!1}),$("#carousel-quotes").carousel({interval:null,pause:null,keyboard:!1})})}(jQuery,this);

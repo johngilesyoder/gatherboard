@@ -4,12 +4,12 @@
     'use strict';
 
     $('#featured-events').carousel({
-      interval: 20000,
+      interval: 6000,
       pause: null,
       keyboard: false
     });
     $('#event-bg').carousel({
-      interval: 20000,
+      interval: 6000,
       pause: null,
       keyboard: false
     });

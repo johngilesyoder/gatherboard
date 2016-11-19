@@ -10,10 +10,7 @@
         <div class="hero-event-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-bg-1.png');"></div>
       </div>
       <div class="item event-bg-wrapper">
-        <div class="hero-event-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-bg-1.png');"></div>
-      </div>
-      <div class="item event-bg-wrapper">
-        <div class="hero-event-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-bg-1.png');"></div>
+        <div class="hero-event-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero-bg-2.png');"></div>
       </div>
     </div>
   </div>
@@ -37,19 +34,14 @@
             <span class="event-location">Missoula, Montana</span>
           </div>
           <div class="item featured-event">
-            <span class="event-title"><i class="zmdi zmdi-calendar"></i> Toots</span>
-            <span class="event-location">Missoula, Montana</span>
-          </div>
-          <div class="item featured-event">
-            <span class="event-title"><i class="zmdi zmdi-calendar"></i> McGoots</span>
-            <span class="event-location">Missoula, Montana</span>
+            <span class="event-title"><i class="zmdi zmdi-calendar"></i> ACL Festival</span>
+            <span class="event-location">Austin, Texas</span>
           </div>
         </div>
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#carousel-events" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-events" data-slide-to="1"></li>
-          <li data-target="#carousel-events" data-slide-to="2"></li>
         </ol>
       </div>
     </div>
