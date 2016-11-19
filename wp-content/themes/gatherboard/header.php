@@ -17,11 +17,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Typekit -->
-    <!-- =================================== -->
-    <script src="https://use.typekit.net/sns3qns.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
     <!-- Wordpress Generated -->
     <!-- =================================== -->
     <?php wp_head(); ?>
