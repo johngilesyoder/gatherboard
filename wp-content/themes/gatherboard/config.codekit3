@@ -2371,94 +2371,6 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/img\/action-bg-1.png": {
-		"ft": 32768,
-		"iS": 712538,
-		"oA": 0,
-		"oAP": "\/assets\/img\/action-bg-1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/action-location-bg-blue.png": {
-		"ft": 32768,
-		"iS": 220065,
-		"oA": 0,
-		"oAP": "\/assets\/img\/action-location-bg-blue.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/img\/action-location-bg-green.png": {
-		"ft": 32768,
-		"iS": 229508,
-		"oA": 0,
-		"oAP": "\/assets\/img\/action-location-bg-green.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/action-location-bg-red.png": {
-		"ft": 32768,
-		"iS": 141076,
-		"oA": 0,
-		"oAP": "\/assets\/img\/action-location-bg-red.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/app-devices.png": {
-		"ft": 32768,
-		"iS": 32935,
-		"oA": 0,
-		"oAP": "\/assets\/img\/app-devices.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/img\/billboard-about.png": {
-		"ft": 32768,
-		"iS": 219253,
-		"oA": 0,
-		"oAP": "\/assets\/img\/billboard-about.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/billboard-blog.png": {
-		"ft": 32768,
-		"iS": 4115950,
-		"oA": 0,
-		"oAP": "\/assets\/img\/billboard-blog.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/billboard-entrepreneurs.png": {
-		"ft": 32768,
-		"iS": 346473,
-		"oA": 0,
-		"oAP": "\/assets\/img\/billboard-entrepreneurs.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/billboard-feature.png": {
-		"ft": 32768,
-		"iS": 847925,
-		"oA": 0,
-		"oAP": "\/assets\/img\/billboard-feature.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/built-for-organizations.png": {
-		"ft": 32768,
-		"iS": 323951,
-		"oA": 0,
-		"oAP": "\/assets\/img\/built-for-organizations.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/company-photo.png": {
-		"ft": 32768,
-		"iS": 1667567,
-		"oA": 0,
-		"oAP": "\/assets\/img\/company-photo.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/assets\/img\/featured-event-rainbow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2468,46 +2380,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/assets\/img\/features-video-thumbnail.png": {
-		"ft": 32768,
-		"iS": 1105472,
-		"oA": 0,
-		"oAP": "\/assets\/img\/features-video-thumbnail.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/founder-colin.png": {
-		"ft": 32768,
-		"iS": 684561,
-		"oA": 0,
-		"oAP": "\/assets\/img\/founder-colin.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/founder-molly.png": {
-		"ft": 32768,
-		"iS": 508780,
-		"oA": 0,
-		"oAP": "\/assets\/img\/founder-molly.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/hero-bg-1.png": {
-		"ft": 32768,
-		"iS": 4106227,
-		"oA": 0,
-		"oAP": "\/assets\/img\/hero-bg-1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/hero-bg-2.png": {
-		"ft": 32768,
-		"iS": 4058533,
-		"oA": 0,
-		"oAP": "\/assets\/img\/hero-bg-2.png",
-		"oF": 0,
-		"opt": 1
 		},
 	"\/assets\/img\/hero-statement-tail.svg": {
 		"ft": 2097152,
@@ -2619,38 +2491,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/license-holders-bg.png": {
-		"ft": 32768,
-		"iS": 659708,
-		"oA": 0,
-		"oAP": "\/assets\/img\/license-holders-bg.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/next-level-bg.png": {
-		"ft": 32768,
-		"iS": 697925,
-		"oA": 0,
-		"oAP": "\/assets\/img\/next-level-bg.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/quote-author.png": {
-		"ft": 32768,
-		"iS": 157849,
-		"oA": 0,
-		"oAP": "\/assets\/img\/quote-author.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/quotes-bg.png": {
-		"ft": 32768,
-		"iS": 1233581,
-		"oA": 0,
-		"oAP": "\/assets\/img\/quotes-bg.png",
-		"oF": 0,
-		"opt": 1
-		},
 	"\/assets\/img\/site-logo-inverted.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2690,22 +2530,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/assets\/img\/team-bg.png": {
-		"ft": 32768,
-		"iS": 211132,
-		"oA": 0,
-		"oAP": "\/assets\/img\/team-bg.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/video-thumbnail-bg.png": {
-		"ft": 32768,
-		"iS": 360343,
-		"oA": 0,
-		"oAP": "\/assets\/img\/video-thumbnail-bg.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/assets\/js\/lib\/animation.gsap.js": {
 		"ft": 64,
