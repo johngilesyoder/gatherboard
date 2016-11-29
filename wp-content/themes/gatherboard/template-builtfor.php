@@ -23,7 +23,7 @@ $page_subtitle = get_field( "page_subtitle" );
 <main role="main">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-offset-3 col-md-6">
+			<div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 					<!-- article -->
