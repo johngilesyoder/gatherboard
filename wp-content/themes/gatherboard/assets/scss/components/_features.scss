@@ -4,7 +4,6 @@
   margin: 0 0 60px;
   .feature {
     width: 33%;
-    height: 300px;
     padding: 30px;
     border-top: 1px solid $border-color;
     border-left: 1px solid $border-color;
@@ -55,7 +54,71 @@
 @media (min-width: 768px) and (max-width: 991px) {}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .features-wrapper {
+    margin: 0 0 40px;
+    .feature {
+      width: 50%;
+      border-left: 1px solid $border-color;
+      &:nth-child(4n+0) {
+        border-left: 1px solid $border-color;
+      }
+      &:nth-child(3) {
+        border-top: 1px solid $border-color;
+      }
+      &:nth-child(odd),
+      &:first-child {
+        border-left: 0;
+      }
+      &:nth-child(1),
+      &:nth-child(2) {
+        border-top: 0;
+      }
+      .feature-icon {
+        font-size: 21px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        margin: 0 0 15px;
+      }
+      .feature-title {
+        font-size: 16px;
+        margin: 0 0 15px;
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .features-wrapper {
+    margin: 0 0 30px;
+    .feature {
+      width: 100%;
+      border-left: 0 !important;
+      border-top: 0 !important;
+      border-bottom: 1px solid $border-color;
+      padding: 30px 0;
+      text-align: center;
+      .feature-icon {
+        font-size: 21px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        margin: 0 0 15px;
+      }
+      .feature-title {
+        font-size: 16px;
+        margin: 0 0 15px;
+      }
+      &:last-child {
+        border: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+}

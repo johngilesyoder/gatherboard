@@ -72,13 +72,24 @@ main {
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .section-title {
+    font-size: 36px;
+  }
+
+}
 
 // Up to tablet
 @media (max-width: 767px) {
 
   .page-title {
     font-size: 36px;
+  }
+
+  .section-title {
+    font-size: 36px;
+    margin: 0 0 40px;
   }
 
   main {
@@ -88,4 +99,11 @@ main {
 }
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .section-title {
+    font-size: 27px;
+    margin: 0 0 30px;
+  }
+
+}

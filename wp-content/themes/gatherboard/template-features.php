@@ -45,7 +45,7 @@ $page_subtitle = get_field( "page_subtitle" );
 								<span class="feature-icon"><i class="zmdi zmdi-calendar"></i></span>
 								<h3 class="feature-title">Optimized for social</h3>
 								<div class="feature-description">
-									<p>Get noticed on the top social platforms. Our shareable events create the most visibility possible and increase traffic to your events calendars.</p>
+									<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.</p>
 								</div>
 							</div>
 							<div class="feature">
@@ -79,14 +79,14 @@ $page_subtitle = get_field( "page_subtitle" );
 							<span class="feature-icon"><i class="zmdi zmdi-calendar"></i></span>
 							<h3 class="feature-title">Optimized for social</h3>
 							<div class="feature-description">
-								<p>Get noticed on the top social platforms. Our shareable events create the most visibility possible and increase traffic to your events calendars.</p>
+								<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.</p>
 							</div>
 						</div>
 						<div class="feature">
 							<span class="feature-icon"><i class="zmdi zmdi-calendar"></i></span>
 							<h3 class="feature-title">Optimized for social</h3>
 							<div class="feature-description">
-								<p>Get noticed on the top social platforms. Our shareable events create the most visibility possible and increase traffic to your events calendars.</p>
+								<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 							</div>
 						</div>
 						<div class="feature">
