@@ -43,63 +43,11 @@
         <div class="col-md-9">
           <main role="main">
         		<section class="blog-roll">
-        			<?php //get_template_part('loop'); ?>
               <div class="row">
-                <div class="col-md-6">
-                  <article>
-                    <a href="#" class="post-img" style="background-image:url('http://placehold.it/400x400')"></a>
-                    <div class="post-details">
-                      <a href="#" class="post-category">Resources</a>
-                      <h3 class="post-title"><a href="#">How to Focus Better and Get In the Zone</a></h3>
-                      <div class="post-meta">
-                        <span class="author">by Colin Hickey</span> &bull;
-                        <span class="date">October 9, 2016</span>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-6">
-                  <article>
-                    <a href="#" class="post-img" style="background-image:url('http://placehold.it/400x400')"></a>
-                    <div class="post-details">
-                      <a href="#" class="post-category">Resources</a>
-                      <h3 class="post-title"><a href="#">8 Ways GatherBoard Can Help You Make Your First Sale</a></h3>
-                  		<div class="post-meta">
-                        <span class="author">by Molly Bradford</span> &bull;
-                        <span class="date">October 2, 2016</span>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-6">
-                  <article>
-                    <a href="#" class="post-img" style="background-image:url('http://placehold.it/400x400')"></a>
-                    <div class="post-details">
-                      <a href="#" class="post-category">Articles</a>
-                      <h3 class="post-title"><a href="#">Board Member Spotlight - WSSAreaEvents</a></h3>
-                      <div class="post-meta">
-                        <span class="author">by Molly Bradford</span> &bull;
-                        <span class="date">September 23, 2016</span>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-6">
-                  <article>
-                    <a href="#" class="post-img" style="background-image:url('http://placehold.it/400x400')"></a>
-                    <div class="post-details">
-                      <a href="#" class="post-category">Resources</a>
-                      <h3 class="post-title"><a href="#">How do I start a community?</a></h3>
-                      <div class="post-meta">
-                        <span class="author">by Molly Bradford</span> &bull;
-                        <span class="date">September 15, 2016</span>
-                      </div>
-                    </div>
-                  </article>
-                </div>
+
+                <?php get_template_part('loop'); ?>
+
               </div>
-
-
         		</section>
 
             <?php get_template_part('pagination'); ?>

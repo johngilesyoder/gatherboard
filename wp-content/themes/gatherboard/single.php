@@ -1,67 +1,119 @@
-<?php get_header(); ?>
+<?php get_header();
+  $img = wp_get_attachment_image_src(get_post_thumbnail_id(get_option('page_for_posts')),'full');
+  $featured_image = $img[0];
+?>
 
-	<main role="main">
-	<!-- section -->
-	<section>
+<div class="page-billboard" style="background-image: url('<?php echo $featured_image ?>');">
+	<div class="container-fluid">
+		<h1>GatherBoard Blog</h1>
+		<h2>Bring your community together</h2>
+	</div>
+</div>
 
-	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-offset-1 col-md-10">
+			<div class="row">
+				<div class="col-md-9">
+					<main role="main">
 
-		<!-- article -->
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+						<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-			<!-- post thumbnail -->
-			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-					<?php the_post_thumbnail(); // Fullsize image for the single post ?>
-				</a>
-			<?php endif; ?>
-			<!-- /post thumbnail -->
+							<!-- article -->
+							<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                <div class="post-details">
+									<?php the_category(); ?>
+	                <h1 class="post-title"><?php the_title(); ?></h1>
+									<div class="clearfix">
+		                <div class="post-meta">
+		                  <span class="author">by <?php the_author(); ?></span> &bull;
+		                  <span class="date"><?php the_time('F j, Y'); ?></span>
+		                </div>
+										<div class="post-share">
+		                  <div class="share-facebook">
+		                    <div class="fb-like" data-width="80" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+		                  </div>
+		                  <div class="share-twitter">
+		                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		                  </div>
+		                  <div class="share-pinterest">
+		                    <a href="https://www.pinterest.com/pin/create/button/">
+		                      <img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" />
+		                    </a>
+		                  </div>
+										</div>
+	                </div>
+								</div>
 
-			<!-- post title -->
-			<h1>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-			</h1>
-			<!-- /post title -->
 
-			<!-- post details -->
-			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-			<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
-			<!-- /post details -->
+								<!-- post thumbnail -->
+								<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
+									<div class="post-img" title="<?php the_title(); ?>" style="background-image:url('<?php the_post_thumbnail_url( full ); ?>');"></div>
+								<?php endif; ?>
 
-			<?php the_content(); // Dynamic Content ?>
+                <div class="post-content">
+								  <?php the_content(); // Dynamic Content ?>
+                </div>
 
-			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+								<div class="post-author">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <div class="author-photo" style="background-image:url('<?php echo get_avatar_url(get_the_author_meta( 'user_email' )); ?>');"></div>
+                    </div>
+                    <div class="col-md-10">
+									    <h4>ABOUT THE AUTHOR</h4>
+									    <?php the_author_description(); ?>
+                    </div>
+                  </div>
+                </div>
 
-			<p><?php _e( 'Categorised in: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
+                <div class="post-share-bottom">
+                  <strong>Share this article</strong>
+                  <div class="share-facebook">
+                    <div class="fb-like" data-width="80" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+                  </div>
+                  <div class="share-twitter">
+                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                  </div>
+                  <div class="share-pinterest">
+                    <a href="https://www.pinterest.com/pin/create/button/">
+                      <img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" />
+                    </a>
+                  </div>
+                </div>
 
-			<p><?php _e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
+								<?php //comments_template(); ?>
 
-			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
+							</article>
 
-			<?php comments_template(); ?>
+						<?php endwhile; ?>
 
-		</article>
-		<!-- /article -->
+						<?php else: ?>
 
-	<?php endwhile; ?>
+							<!-- article -->
+							<article>
 
-	<?php else: ?>
+								<h1><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
 
-		<!-- article -->
-		<article>
+							</article>
+							<!-- /article -->
 
-			<h1><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
+						<?php endif; ?>
 
-		</article>
-		<!-- /article -->
+					</main>
+				</div>
+				<div class="col-md-3">
 
-	<?php endif; ?>
+					<?php get_sidebar(); ?>
 
-	</section>
-	<!-- /section -->
-	</main>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-<?php get_sidebar(); ?>
+<!-- Pays for itself -->
+<!-- =================================== -->
+<?php get_template_part( 'includes/pays-for-itself' ); ?>
 
 <?php get_footer(); ?>

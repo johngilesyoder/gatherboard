@@ -75,6 +75,23 @@
   }
   .popular-posts {
     margin: 0 0 40px;
+    .wpp-list {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        border-bottom: 1px solid $border-color;
+        padding: 10px 0;
+        &:last-child {
+          border: 0;
+          padding-bottom: 0;
+        }
+        a {
+          color: $text-color;
+          font-size: 16px;
+        }
+      }
+    }
   }
 }
 

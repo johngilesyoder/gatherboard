@@ -98,7 +98,12 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
   .site-footer {
-
+    .footer-about {
+      margin: 0 0 30px;
+    }
+    .footer-bottom {
+      margin: 30px 0 0;
+    }
   }
 
 }
@@ -107,7 +112,16 @@
 @media (max-width: 767px) {
 
   .site-footer {
-
+    padding: 40px 0;
+    .footer-about {
+      margin: 0 0 30px;
+    }
+    .footer-bottom {
+      margin: 30px 0 0;
+    }
+    .footer-social {
+      text-align: left;
+    }
   }
 
 }
@@ -116,7 +130,25 @@
 @media (max-width: 480px) {
 
   .site-footer {
-
+    padding: 30px 0;
+    text-align: center;
+    .col-xs-4 {
+      width: 50%;
+      &:last-child {
+        .links-column {
+          margin: 0;
+        }
+      }
+    }
+    .links-column {
+      margin-bottom: 30px;
+    }
+    .footer-copyright {
+      margin: 0 0 30px;
+    }
+    .footer-social {
+      text-align: center;
+    }
   }
 
 }

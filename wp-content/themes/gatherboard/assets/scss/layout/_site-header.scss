@@ -3,6 +3,7 @@
 
 .site-header {
   z-index: 100;
+  border: 0;
   .border-wrapper {
     border-bottom: 1px solid #e6e6e6;
   }
@@ -12,55 +13,21 @@
       margin: 0;
     }
   }
-  .navbar-nav {
-    & > li {
-      &.current-menu-item a {
-        position: relative;
-        &:after {
-          content: '';
-          display: block;
-          height: 3px;
-          width: 100%;
-          background: $link-color;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-        }
-      }
-      & > a {
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-      &:last-child {
-        a {
-          @extend .btn;
-          @extend .btn-outline;
-          font-size: 18px;
-          text-transform: none;
-          margin: 17.5px 0 17.5px 30px;
-          padding: 5.5px 30px;
-          border-radius: 30px;
-          &:hover {
-            color: #fff;
-            background-color: $link-hover-color;
-            border-color: $link-hover-color;
-          }
-        }
+  .navbar-toggle {
+    margin-right: 0;
+    .icon-bar {
+      width: 30px;
+      & + .icon-bar {
+        margin-top: 5px;
       }
     }
-    .dropdown-toggle {
-      .caret {
-        border: 0;
-        background-image: url('assets/img/icon-chevron-down-blue.svg');
-        background-size: cover;
-        width: 10px;
-        height: 7px;
-      }
-    }
-    .dropdown-menu {
+  }
+}
 
-    }
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  .icon-bar {
+    background-color: #333;
   }
 }
 
@@ -107,6 +74,68 @@
 // Media Queries
 // --------------------------------------------------
 
+
+@media (min-width: 992px) {
+  .site-header {
+
+    .navbar-nav {
+      & > li {
+        &.current-menu-item a {
+          position: relative;
+          &:after {
+            content: '';
+            display: block;
+            height: 3px;
+            width: 100%;
+            background: $link-color;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+          }
+        }
+        & > a {
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &:last-child {
+          a {
+            background: transparent;
+            border: 2px solid $link-color;
+            box-shadow: none;
+            color: $link-color;
+            font-weight: 500;
+            font-family: $font-family-sans-serif;
+            font-size: 18px;
+            text-transform: none;
+            margin: 17.5px 0 17.5px 30px;
+            padding: 5.5px 30px;
+            border-radius: 30px;
+            &:hover {
+              color: #fff;
+              background-color: $link-hover-color;
+              border-color: $link-hover-color;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .dropdown-toggle {
+        .caret {
+          border: 0;
+          background-image: url('assets/img/icon-chevron-down-blue.svg');
+          background-size: cover;
+          width: 10px;
+          height: 7px;
+        }
+      }
+      .dropdown-menu {
+
+      }
+    }
+  }
+}
+
 // Large desktop and up
 @media (min-width: 1200px) {}
 
@@ -114,10 +143,94 @@
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .site-header {
+    border-bottom: 1px solid $border-color;
+    .border-wrapper {
+      border: 0;
+    }
+    .navbar-collapse {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  }
+  .site-header.navbar-inverse {
+    border-bottom-color: rgba(255,255,255,.2);
+    .navbar-collapse {
+      box-shadow: none;
+      background: #fff;
+      margin-left: -30px;
+      margin-right: -30px;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid $border-color;
+      .navbar-nav {
+        li {
+          a {
+            color: $link-color;
+            &:hover {
+              color: $link-hover-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .site-header {
+    border-bottom: 1px solid $border-color;
+    min-height: 60px;
+    .border-wrapper {
+      border: 0;
+    }
+    .navbar-header {
+      .navbar-brand {
+        height: 60px;
+        padding: 10px 0;
+        img {
+          height: 40px;
+        }
+      }
+    }
+    .navbar-collapse {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .navbar-toggle {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  }
+  .site-header.navbar-inverse {
+    border-bottom-color: rgba(255,255,255,.2);
+    .navbar-collapse {
+      box-shadow: none;
+      background: #fff;
+      margin-left: -15px;
+      margin-right: -15px;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid $border-color;
+      .navbar-nav {
+        li {
+          a {
+            color: $link-color;
+          }
+        }
+      }
+    }
+    .border-wrapper {
+      border: 0;
+    }
+  }
+
+}
 
 // Up to landscape phone
 @media (max-width: 480px) {

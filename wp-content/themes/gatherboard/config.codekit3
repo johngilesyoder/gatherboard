@@ -2371,6 +2371,94 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/assets\/img\/action-bg-1.png": {
+		"ft": 32768,
+		"iS": 180110,
+		"oA": 0,
+		"oAP": "\/assets\/img\/action-bg-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/action-location-bg-blue.png": {
+		"ft": 32768,
+		"iS": 29816,
+		"oA": 0,
+		"oAP": "\/assets\/img\/action-location-bg-blue.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/action-location-bg-green.png": {
+		"ft": 32768,
+		"iS": 31256,
+		"oA": 0,
+		"oAP": "\/assets\/img\/action-location-bg-green.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/action-location-bg-red.png": {
+		"ft": 32768,
+		"iS": 25109,
+		"oA": 0,
+		"oAP": "\/assets\/img\/action-location-bg-red.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/app-devices.png": {
+		"ft": 32768,
+		"iS": 12307,
+		"oA": 0,
+		"oAP": "\/assets\/img\/app-devices.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/billboard-about.png": {
+		"ft": 32768,
+		"iS": 40090,
+		"oA": 0,
+		"oAP": "\/assets\/img\/billboard-about.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/billboard-blog.png": {
+		"ft": 32768,
+		"iS": 1245177,
+		"oA": 0,
+		"oAP": "\/assets\/img\/billboard-blog.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/billboard-entrepreneurs.png": {
+		"ft": 32768,
+		"iS": 99396,
+		"oA": 0,
+		"oAP": "\/assets\/img\/billboard-entrepreneurs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/billboard-feature.png": {
+		"ft": 32768,
+		"iS": 277013,
+		"oA": 0,
+		"oAP": "\/assets\/img\/billboard-feature.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/built-for-organizations.png": {
+		"ft": 32768,
+		"iS": 86640,
+		"oA": 0,
+		"oAP": "\/assets\/img\/built-for-organizations.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/company-photo.png": {
+		"ft": 32768,
+		"iS": 385403,
+		"oA": 0,
+		"oAP": "\/assets\/img\/company-photo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/featured-event-rainbow.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2380,6 +2468,46 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/features-video-thumbnail.png": {
+		"ft": 32768,
+		"iS": 333510,
+		"oA": 0,
+		"oAP": "\/assets\/img\/features-video-thumbnail.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/founder-colin.png": {
+		"ft": 32768,
+		"iS": 316770,
+		"oA": 0,
+		"oAP": "\/assets\/img\/founder-colin.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/founder-molly.png": {
+		"ft": 32768,
+		"iS": 124595,
+		"oA": 0,
+		"oAP": "\/assets\/img\/founder-molly.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/hero-bg-1.png": {
+		"ft": 32768,
+		"iS": 969972,
+		"oA": 0,
+		"oAP": "\/assets\/img\/hero-bg-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/hero-bg-2.png": {
+		"ft": 32768,
+		"iS": 873154,
+		"oA": 0,
+		"oAP": "\/assets\/img\/hero-bg-2.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/hero-statement-tail.svg": {
 		"ft": 2097152,
@@ -2491,6 +2619,38 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/license-holders-bg.png": {
+		"ft": 32768,
+		"iS": 236777,
+		"oA": 0,
+		"oAP": "\/assets\/img\/license-holders-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/next-level-bg.png": {
+		"ft": 32768,
+		"iS": 132195,
+		"oA": 0,
+		"oAP": "\/assets\/img\/next-level-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/quote-author.png": {
+		"ft": 32768,
+		"iS": 46309,
+		"oA": 0,
+		"oAP": "\/assets\/img\/quote-author.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/quotes-bg.png": {
+		"ft": 32768,
+		"iS": 228495,
+		"oA": 0,
+		"oAP": "\/assets\/img\/quotes-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/site-logo-inverted.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2530,6 +2690,22 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/team-bg.png": {
+		"ft": 32768,
+		"iS": 65724,
+		"oA": 0,
+		"oAP": "\/assets\/img\/team-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/video-thumbnail-bg.png": {
+		"ft": 32768,
+		"iS": 90043,
+		"oA": 0,
+		"oAP": "\/assets\/img\/video-thumbnail-bg.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/js\/lib\/animation.gsap.js": {
 		"ft": 64,

@@ -42,17 +42,16 @@
       <div class="row">
         <div class="col-md-9">
           <main role="main">
-        		<!-- section -->
-        		<section>
+        		<section class="blog-roll">
+              <div class="row">
 
-        			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
+                <?php get_template_part('loop'); ?>
 
-        			<?php get_template_part('loop'); ?>
-
-        			<?php get_template_part('pagination'); ?>
-
+              </div>
         		</section>
-        		<!-- /section -->
+
+            <?php get_template_part('pagination'); ?>
+
         	</main>
         </div>
         <div class="col-md-3">

@@ -374,3 +374,39 @@ return $query;
 }
 
 add_filter('pre_get_posts','SearchFilter');
+
+add_filter( 'post_class', 'mark_first_post' );
+
+
+// Style first post in loop differently
+function mark_first_post( $classes )
+{
+    remove_filter( current_filter(), __FUNCTION__ );
+    $classes[] = 'first-post';
+    return $classes;
+}
+
+function is_first_post()
+{
+    static $called = FALSE;
+
+    if ( ! $called )
+    {
+        $called = TRUE;
+        return TRUE;
+    }
+
+    return FALSE;
+}
+
+// Get avatar URL
+function get_avatar_img_url() {
+  $user_email = get_the_author_meta( 'user_email' );
+
+  $url = 'http://gravatar.com/avatar/' . md5( $user_email );
+  $url = add_query_arg( array(
+    's' => 80,
+    'd' => 'mm',
+  ), $url );
+  return esc_url_raw( $url );
+}
