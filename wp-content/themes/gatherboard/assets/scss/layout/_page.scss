@@ -19,6 +19,7 @@ main {
 
 .page-title {
   font-size: 48px;
+  margin: 0 0 30px;
 }
 
 .section-title {
@@ -74,7 +75,17 @@ main {
 @media (min-width: 768px) and (max-width: 991px) {}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .page-title {
+    font-size: 36px;
+  }
+
+  main {
+    margin: 0 0 30px;
+  }
+
+}
 
 // Up to landscape phone
 @media (max-width: 480px) {}

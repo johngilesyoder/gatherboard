@@ -3643,7 +3643,7 @@ tbody.collapse.in {
 .navbar {
   position: relative;
   min-height: 75px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   border: 1px solid transparent; }
   .navbar:before, .navbar:after {
     content: " ";
@@ -5939,11 +5939,13 @@ a img.aligncenter {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #fff; }
+    color: #fff;
+    margin-top: 0; }
   .page-billboard h2 {
     font-size: 42px;
     font-weight: 300 !important;
-    color: #fff; }
+    color: #fff;
+    margin-bottom: 0; }
   .page-billboard .btn-action {
     background: #fff;
     color: #666;
@@ -5951,6 +5953,19 @@ a img.aligncenter {
     border-radius: 100px;
     font-weight: 700;
     margin: 30px 0 0; }
+
+@media (max-width: 767px) {
+  .page-billboard {
+    padding: 110px 0 50px; }
+    .page-billboard h2 {
+      font-size: 36px; } }
+
+@media (max-width: 480px) {
+  .page-billboard {
+    padding: 90px 0 30px; }
+    .page-billboard h2 {
+      font-size: 30px;
+      margin: 0; } }
 
 .blog-footer {
   padding-top: 60px;
@@ -6231,7 +6246,8 @@ main {
   margin: 0 0 60px; }
 
 .page-title {
-  font-size: 48px; }
+  font-size: 48px;
+  margin: 0 0 30px; }
 
 .section-title {
   font-size: 48px;
@@ -6263,6 +6279,12 @@ main {
 
 .carousel-fade .carousel-control {
   z-index: 2; }
+
+@media (max-width: 767px) {
+  .page-title {
+    font-size: 36px; }
+  main {
+    margin: 0 0 30px; } }
 
 .site-header {
   z-index: 100;
@@ -6394,6 +6416,10 @@ main {
         color: #0C5FAF; }
     .site-header.navbar-inverse .border-wrapper {
       border: 0; } }
+
+@media (max-width: 480px) {
+  .site-header {
+    margin: 0 0 30px; } }
 
 .site-footer {
   background: #F2F6F7;
@@ -7046,6 +7072,10 @@ main {
       display: inline-block;
       margin-right: 15px;
       vertical-align: middle; }
+
+@media (max-width: 767px) {
+  .page-template-template-builtfor .page-billboard .perfect-for {
+    margin-bottom: 0; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .contact-us .contact-methods {
