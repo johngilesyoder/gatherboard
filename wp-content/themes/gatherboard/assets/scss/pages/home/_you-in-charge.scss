@@ -25,16 +25,23 @@
       li {
         font-weight: 500;
         border-bottom: 1px solid hsla(0,0,100,.15);
-        padding: 13px 0;
+        padding: 13px 35px 13px 0;
+        position: relative;
+        &:last-child {
+          border: 0;
+          padding-bottom: 0;
+        }
         &:after {
           content: '';
-          float: right;
           background-image: url('assets/img/icon-check-green.svg');
           background-size: cover;
           width: 19px;
           height: 14px;
           display: inline-block;
           margin-top: 6px;
+          position: absolute;
+          right: 0;
+          top: 13px;
         }
       }
     }
@@ -88,10 +95,78 @@
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .home-you-in-charge {
+    .quotes,
+    .check-list-wrapper {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+    .check-list-wrapper {
+      padding: 60px 30px;
+      .check-list {
+        position: static;
+        transform: none;
+      }
+    }
+    .quotes {
+      .item {
+        height: 300px;
+      }
+    }
+  }
+
+}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .home-you-in-charge {
+    .quotes,
+    .check-list-wrapper {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+    .check-list-wrapper {
+      padding: 60px 30px;
+      .check-list {
+        position: static;
+        transform: none;
+      }
+    }
+    .quotes {
+      .item {
+        height: 400px;
+        .success-story-quote {
+
+        }
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .home-you-in-charge {
+    .quotes {
+      .item {
+        padding: 30px;
+        height: auto;
+        .success-story-quote {
+          position: static;
+          transform: none;
+          margin: 0;
+        }
+      }
+      .carousel-control {
+        display: none;
+      }
+    }
+  }
+
+}
