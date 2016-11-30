@@ -17,6 +17,8 @@
       height: 415px;
       color: #fff;
       text-align: center;
+      background-size: cover;
+      background-position: 50% 50%;
       @extend .vertical-center-parent;
       .license-holders-content {
         @extend .vertical-center;
@@ -71,10 +73,11 @@
     margin: 0 0 60px;
     .press-piece {
       background: $ltBlue;
-      padding: 15px;
+      padding: 15px 15px 15px 65px;
       @include clearfix()
       display: block;
-      margin: 0 0 30px;
+      margin: 0 0 15px;
+      position: relative;
       .publication-logo {
         width: 36px;
         height: 36px;
@@ -82,6 +85,8 @@
         background-position: 50% 50%;
         float: left;
         margin-right: 15px;
+        position: absolute;
+        left: 15px;
       }
       .press-details {
         padding: 5px 0 0;
@@ -112,7 +117,14 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
   .page-template-template-about {
-
+    .about-company {
+      .company-photo {
+        height: 350px;
+      }
+      .license-holders {
+        height: 350px;
+      }
+    }
   }
 
 }
@@ -121,7 +133,33 @@
 @media (max-width: 767px) {
 
   .page-template-template-about {
-
+    .about-company {
+      .company-content {
+        margin: 0 0 40px;
+      }
+      .license-holders {
+        margin: 0 0 40px;
+        height: 300px;
+      }
+      .company-photo {
+        height: 300px;
+      }
+    }
+    .about-founders {
+      margin: 0 0 40px;
+      .founder {
+        margin: 0 0 40px;
+        .founder-photo {
+          margin: 0 0 30px;
+          width: 35%;
+          padding-bottom: 35%;
+          float: none;
+        }
+      }
+    }
+    .about-press {
+      margin: 0 0 40px;
+    }
   }
 
 }
@@ -130,7 +168,35 @@
 @media (max-width: 480px) {
 
   .page-template-template-about {
-
+    .about-company {
+      .company-content {
+        margin: 0 0 30px;
+      }
+      .license-holders {
+        margin: 0 0 30px;
+        height: 300px;
+        p {
+          font-size: 30px;
+        }
+      }
+      .company-photo {
+        height: 250px;
+      }
+    }
+    .about-founders {
+      margin: 0 0 30px;
+      .founder {
+        margin: 0 0 30px;
+        .founder-photo {
+          width: 50%;
+          padding-bottom: 50%;
+          margin: 0 auto 30px;
+        }
+      }
+    }
+    .about-press {
+      margin: 0 0 30px;
+    }
   }
 
 }

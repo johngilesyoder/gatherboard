@@ -4,13 +4,13 @@
       <section class="blog-footer">
         <h3>On the blog <a href="#"><i class="zmdi zmdi-chevron-right"></i>View all</a></h3>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <article>
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-sm-3">
                   <div class="article-img" style="background-image:url('http://placehold.it/300x300')"></div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-sm-9">
                   <h4><a href="#">GatherBoard Partner Program</a></h4>
                   <span class="date">September 31, 2016</span>
                   <div class="excerpt">
@@ -20,13 +20,13 @@
               </div>
             </article>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <article>
               <div class="row">
-                <div class="col-md-3">
+                <div class="col-sm-3">
                   <div class="article-img" style="background-image:url('http://placehold.it/300x300')"></div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-sm-9">
                   <h4><a href="#">GatherBoard Partner Program</a></h4>
                   <span class="date">September 31, 2016</span>
                   <div class="excerpt">

@@ -93,13 +93,17 @@ main {
   }
 
   main {
-    margin: 0 0 30px;
+    margin: 0 0 40px;
   }
 
 }
 
 // Up to landscape phone
 @media (max-width: 480px) {
+
+  main {
+    margin: 0 0 30px;
+  }
 
   .section-title {
     font-size: 27px;
