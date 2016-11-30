@@ -117,7 +117,7 @@
     }
   }
   .post-share-bottom {
-    padding: 35px 0;
+    padding: 30px 0;
     border-bottom: 1px solid $border-color;
     strong {
       font-size: 16px;
@@ -160,7 +160,72 @@
 @media (min-width: 768px) and (max-width: 991px) {}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .single {
+    .page-billboard {
+      text-align: center;
+      padding: 80px 0 30px;
+      h1 {
+        font-size: 36px;
+        margin: 0 0 10px;
+        display: block;
+      }
+      h2 {
+        font-size: 18px;
+        display: block;
+        margin: 0;
+      }
+    }
+    .type-post {
+      .post-details {
+        .post-title {
+          font-size: 30px;
+        }
+        .post-meta {
+          float: none;
+          margin: 0 0 15px;
+        }
+      }
+      .post-share {
+        float: none;
+        display: block;
+      }
+      .post-img {
+        height: 320px;
+      }
+    }
+    .post-author {
+      .author-photo {
+        width: 25%;
+        padding-bottom: 25%;
+        float: none;
+        margin: 0 0 30px;
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .single {
+    .type-post {
+      .post-details {
+        .post-title {
+          font-size: 27px;
+        }
+      }
+      .post-img {
+        height: 275px;
+      }
+    }
+    .post-share-bottom {
+      strong {
+        display: block;
+      }
+    }
+  }
+
+}

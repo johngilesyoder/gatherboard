@@ -57,11 +57,11 @@
 
 								<div class="post-author">
                   <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-sm-2">
                       <div class="author-photo" style="background-image:url('<?php echo get_avatar_url(get_the_author_meta( 'user_email' )); ?>');"></div>
                     </div>
-                    <div class="col-md-10">
-									    <h4>ABOUT THE AUTHOR</h4>
+                    <div class="col-sm-10">
+									    <h4>About the Author</h4>
 									    <?php the_author_description(); ?>
                     </div>
                   </div>

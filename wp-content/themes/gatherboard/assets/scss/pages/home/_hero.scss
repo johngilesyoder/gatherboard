@@ -2,17 +2,15 @@
   background: #333;
   background-size: cover;
   background-position: 50% 50%;
-  height: 960px;
   position: relative;
   #event-bg {
     height: 100%;
-    background-size: cover;
-    background-position: 50% 50%;
     width: 100%;
   }
   .hero-event-bg {
-    height: 960px;
     width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
   }
   .hero-statement-wrapper {
     position: absolute;
@@ -33,6 +31,7 @@
         color: #fff;
         font-weight: 300;
         font-size: 42px;
+        line-height: 1.2;
         margin: 5px 0 40px;
         strong {
           font-weight: 700;
@@ -116,17 +115,134 @@
 // Media Queries
 // --------------------------------------------------
 
+@media (min-width: 1441px) {
+
+  .home-hero {
+    height: 960px;
+    .hero-event-bg {
+      height: 960px;
+    }
+  }
+
+}
+
+@media (min-width: 1201px) and (max-width: 1440px) {
+
+  .home-hero {
+    height: 750px;
+    .hero-event-bg {
+      height: 750px;
+    }
+  }
+
+}
+
 // Large desktop and up
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .home-hero {
+    height: 750px;
+    .hero-event-bg {
+      height: 750px;
+    }
+    .hero-statement-wrapper {
+      left: -100px;
+      padding: 0 0 223px 128px;
+      .hero-statement {
+        width: 750px;
+      }
+    }
+  }
+
+}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .home-hero {
+    height: 600px;
+    .hero-event-bg {
+      height: 600px;
+    }
+    .hero-statement-wrapper {
+      left: 0;
+      top: 25%;
+      bottom: auto;
+      padding: 0 30px;
+      background: none;
+      .hero-statement {
+        width: auto;
+        h2 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+
+}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .home-hero {
+    height: 450px;
+    .hero-event-bg {
+      height: 450px;
+      background-position: 50% 100%;
+    }
+    .hero-statement-wrapper {
+      left: 0;
+      top: auto;
+      bottom: 0;
+      padding: 0;
+      background: none;
+      .hero-statement {
+        width: auto;
+        border-radius: 0;
+        h2 {
+          font-size: 32px;
+        }
+      }
+    }
+    .featured-events-wrapper {
+      display: none;
+    }
+  }
+
+}
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .home-hero {
+    height: calc(100vh - 68px);
+    .hero-event-bg {
+      height: calc(100vh - 68px);
+      background-size: auto 125%;
+    }
+    .hero-statement-wrapper {
+      .hero-statement {
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+        h2 {
+          font-size: 27px;
+        }
+        .hero-actions {
+          .btn-action {
+            display: block;
+          }
+          .btn-action-video {
+            background: transparent;
+            color: #fff;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+}

@@ -20,7 +20,7 @@
       <h2>The only event calendar platform designed to <strong>unite</strong> &amp; <strong>strengthen</strong> communities.</h2>
       <div class="hero-actions">
         <a href="#" class="btn btn-action">Get Started</a>
-        <a href="#" class="btn btn-action"><i class="zmdi zmdi-play"></i> Watch Video</a>
+        <a href="#" class="btn btn-action btn-action-video"><i class="zmdi zmdi-play"></i> Watch Video</a>
       </div>
     </div>
   </div>

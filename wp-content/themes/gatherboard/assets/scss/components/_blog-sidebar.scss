@@ -99,7 +99,19 @@
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .blog-sidebar {
+    .sidebar-follow {
+      .social-networks {
+        .network {
+          width: 33%;
+        }
+      }
+    }
+  }
+
+}
 
 // Tablet to desktop
 @media (min-width: 768px) and (max-width: 991px) {
@@ -154,4 +166,15 @@
 }
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .blog-sidebar {
+    .search-form,
+    .sidebar-get-started,
+    .sidebar-follow,
+    .popular-posts {
+      margin-bottom: 30px;
+    }
+  }
+
+}
