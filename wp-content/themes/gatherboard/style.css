@@ -7116,6 +7116,36 @@ main {
     .home-in-action .action-circle:nth-child(3) .circle-location {
       background-image: url("assets/img/action-location-bg-blue.png"); }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-template-template-home .home-in-action .section-title {
+    text-align: center;
+    margin: 0 0 60px; } }
+
+@media (max-width: 767px) {
+  .page-template-template-home .home-in-action .section-title {
+    text-align: center;
+    margin: 0 0 40px; }
+  .home-in-action .action-circle {
+    width: 40%;
+    margin-left: 6.25%;
+    padding-bottom: 40%; }
+    .home-in-action .action-circle:last-child {
+      display: none; } }
+
+@media (max-width: 480px) {
+  .page-template-template-home .home-in-action .section-title {
+    text-align: center;
+    margin: 0 0 30px; }
+  .home-in-action {
+    text-align: center; }
+    .home-in-action .action-circle {
+      width: 75%;
+      float: none;
+      margin: 0 auto;
+      padding-bottom: 75%; }
+      .home-in-action .action-circle:nth-child(2), .home-in-action .action-circle:last-child {
+        display: none; } }
+
 .home-next-level {
   padding: 80px 0;
   position: relative;
