@@ -58,7 +58,41 @@
 @media (min-width: 768px) and (max-width: 991px) {}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .page-blog,
+  .archive.category {
+    .categories {
+      margin: 0 0 40px;
+    }
+    .blog-categories {
+      li {
+        margin-right: 20px;
+        a {
+          font-size: 16px;
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .page-blog,
+  .archive.category {
+    .categories {
+      margin: 0 0 30px;
+    }
+    .blog-categories {
+      margin-right: -15px;
+      margin-left: -15px;
+      padding-left: 15px;
+      white-space: nowrap;
+      overflow: auto;
+    }
+  }
+
+}

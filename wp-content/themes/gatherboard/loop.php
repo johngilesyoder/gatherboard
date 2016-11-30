@@ -27,7 +27,7 @@
 			</article>
 		</div>
 	<?php else : ?>
-		<div class="col-md-6">
+		<div class="col-sm-6">
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<?php if ( has_post_thumbnail()) : ?>
 					<a href="<?php the_permalink(); ?>" class="post-img" title="<?php the_title(); ?>" style="background-image:url('<?php the_post_thumbnail_url( full ); ?>');"></a>

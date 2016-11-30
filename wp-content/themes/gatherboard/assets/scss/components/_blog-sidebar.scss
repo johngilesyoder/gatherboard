@@ -31,23 +31,19 @@
   }
   .sidebar-get-started {
     background: #25313F;
-    padding: 30px;
+    padding: 30px 5px 5px;
     color: #fff;
     font-weight: 500;
     text-align: center;
     margin: 0 0 40px;
     span {
-      &:after {
-        content: '';
-        display: block;
-        height: 1px;
-        width: 25%;
-        background: hsla(0,0,100,.4);
-        margin: 20px auto;
-      }
+      margin: 0 15px 30px;
+      display: block;
     }
     .btn-action {
-      padding: 7.5px 40px;
+      padding: 7.5px;
+      display: block;
+      border-radius: 5px;
     }
   }
   .sidebar-follow {
@@ -106,10 +102,56 @@
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .blog-sidebar {
+    .sidebar-get-started {
+      padding: 30px;
+      span {
+        &:after {
+          content: '';
+          display: block;
+          height: 1px;
+          width: 25%;
+          background: hsla(0,0,100,.4);
+          margin: 20px auto;
+        }
+      }
+      .btn-action {
+        border-radius: 100px;
+        display: inline-block;
+        padding: 7.5px 40px;
+      }
+    }
+  }
+
+}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .blog-sidebar {
+    .sidebar-get-started {
+      padding: 30px;
+      span {
+        &:after {
+          content: '';
+          display: block;
+          height: 1px;
+          width: 25%;
+          background: hsla(0,0,100,.4);
+          margin: 20px auto;
+        }
+      }
+      .btn-action {
+        border-radius: 100px;
+        display: inline-block;
+        padding: 7.5px 40px;
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
 @media (max-width: 480px) {}

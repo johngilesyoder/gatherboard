@@ -60,13 +60,65 @@
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .blog-roll {
+    article {
+      &.first-post {
+        .post-img {
+          height: 400px;
+        }
+      }
+    }
+  }
+
+}
 
 // Tablet to desktop
 @media (min-width: 768px) and (max-width: 991px) {}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .blog-roll {
+    article {
+      margin: 0 0 40px;
+      height: auto;
+      .post-img {
+        height: 320px;
+      }
+      &.first-post {
+        margin: 0 0 40px;
+        .post-img {
+          height: 320px;
+        }
+        .post-details {
+          .post-title {
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .blog-roll {
+    article {
+      margin: 0 0 30px;
+      .post-img {
+        height: 275px;
+      }
+      &.first-post {
+        margin: 0 0 30px;
+        .post-img {
+          height: 275px;
+        }
+      }
+    }
+  }
+
+}
