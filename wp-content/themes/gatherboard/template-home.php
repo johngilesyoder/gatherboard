@@ -12,7 +12,7 @@
 
     <!-- Video -->
     <!-- =================================== -->
-    <?php get_template_part( 'includes/home/video' ); ?>
+    <?php //get_template_part( 'includes/home/video' ); ?>
 
     <!-- Features -->
     <!-- =================================== -->

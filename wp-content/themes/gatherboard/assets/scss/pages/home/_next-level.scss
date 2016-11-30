@@ -24,7 +24,7 @@
     right: 0;
     background-image: url('assets/img/next-level-bg.png');
     background-position: 100% 50%;
-    background-size: 50%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
   }
   .check-list {
@@ -59,13 +59,80 @@
 @media (min-width: 1200px) {}
 
 // Desktop to large desktop
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .home-next-level {
+    &:after {
+      background-position: 500px 50%;
+    }
+  }
+
+}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .home-next-level {
+    padding: 60px 0;
+    .section-title,
+    .check-list,
+    .actions {
+      position: relative;
+      z-index: 10;
+    }
+    &:after {
+      opacity: .15;
+      z-index: 1;
+      background-position: 135% 50%;
+      filter: grayscale(50%);
+
+    }
+  }
+
+}
 
 // Up to tablet
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+
+  .home-next-level {
+    padding: 40px 0;
+    .section-title,
+    .check-list,
+    .actions {
+      position: relative;
+      z-index: 10;
+    }
+    &:after {
+      opacity: .1;
+      z-index: 1;
+      background-position: 135% 50%;
+      filter: grayscale(50%);
+    }
+    .check-list {
+      margin: 0 0 40px;
+      li {
+        margin: 0 0 15px
+      }
+    }
+  }
+
+}
 
 // Up to landscape phone
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+
+  .home-next-level {
+    padding: 30px 0;
+    &:after {
+      display: none;
+    }
+    .actions {
+      .btn {
+        display: block;
+      }
+      .btn-primary {
+        margin: 0 0 15px;
+      }
+    }
+  }
+}
