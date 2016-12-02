@@ -11,8 +11,8 @@
 	<div class="sidebar-follow">
 		<h3>Follow GatherBoard</h3>
 		<div class="social-networks">
-			<a href="#" class="network"><i class="zmdi zmdi-facebook"></i></a>
-			<a href="#" class="network"><i class="zmdi zmdi-twitter"></i></a>
+			<a href="https://www.facebook.com/gatherboard" class="network"><i class="zmdi zmdi-facebook"></i></a>
+			<a href="https://twitter.com/GatherBoard" class="network"><i class="zmdi zmdi-twitter"></i></a>
 			<a href="#" class="network"><i class="zmdi zmdi-pinterest"></i></a>
 			<a href="#" class="network"><i class="zmdi zmdi-youtube"></i></a>
 			<a href="#" class="network"><i class="zmdi zmdi-google-plus"></i></a>

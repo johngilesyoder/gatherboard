@@ -10,9 +10,17 @@ $page_subtitle = get_field( "page_subtitle" );
 				<h2><?php echo $page_subtitle; ?></h2>
 				<div class="perfect-for">
 					<span>Perfect for</span>
-					<i class="zmdi zmdi-radio zmdi-hc-lg"></i>
-					<i class="zmdi zmdi-tv zmdi-hc-lg"></i>
-					<i class="zmdi zmdi-rss zmdi-hc-lg"></i>
+					<?php if( have_rows('perfect_for_icons') ): ?>
+					<?php while( have_rows('perfect_for_icons') ): the_row();
+					// vars
+					$icon_class = get_sub_field('built_for_icon_class');
+					?>
+
+					<i class="zmdi zmdi-hc-lg <?php echo $icon_class ?>"></i>
+
+					<?php endwhile; ?>
+
+					<?php endif; ?>
 				</div>
 				<a href="#" class="btn btn-action">Get started</a>
 			</div>
@@ -33,13 +41,22 @@ $page_subtitle = get_field( "page_subtitle" );
 							<?php the_content(); ?>
 						</div>
 
+						<?php if( have_rows('built_for_benefit_list') ): ?>
+
 						<ul class="check-list">
-							<li>Become a community leader and connector.</li>
-							<li>Increase new web traffic and higher search engine rankings.</li>
-							<li>Develop an income stream by monetizing your calendar.</li>
-							<li>Build a new brand or improve an existing one.</li>
-							<li>Extend your mobile reach.</li>
+
+							<?php while( have_rows('built_for_benefit_list') ): the_row();
+							// vars
+							$benefit = get_sub_field('benefit');
+							?>
+
+							<li><?php echo $benefit ?></li>
+
+							<?php endwhile; ?>
+
 						</ul>
+
+						<?php endif; ?>
 
 					</article>
 					<!-- /article -->
@@ -61,6 +78,7 @@ $page_subtitle = get_field( "page_subtitle" );
 				<div class="signup-form">
 					<h4>Get started now</h4>
 					<!-- FORM GOES HERE -->
+					<?php gravity_form(2, false, false, false, '', true); ?>
 				</div>
 
 			</div>

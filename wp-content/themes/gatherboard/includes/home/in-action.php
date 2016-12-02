@@ -4,15 +4,22 @@
       <div class="col-md-offset-1 col-md-10">
         <h2 class="section-title">See GatherBoard in Action</h2>
         <div class="circles-wraper">
-          <a href="#" class="action-circle" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/action-bg-1.png');">
-            <span class="circle-location">Austin, Texas</span>
+
+          <?php if( have_rows('in_action_bubbles') ): ?>
+          <?php while( have_rows('in_action_bubbles') ): the_row();
+          // vars
+          $bubble_photo = get_sub_field('bubble_photo');
+          $bubble_location = get_sub_field('bubble_location');
+          ?>
+
+          <a href="#" class="action-circle" style="background-image: url('<?php echo $bubble_photo['url']; ?>');">
+            <span class="circle-location"><?php echo $bubble_location ?></span>
           </a>
-          <a href="#" class="action-circle" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/action-bg-1.png');">
-            <span class="circle-location">Austin, Texas</span>
-          </a>
-          <a href="#" class="action-circle" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/action-bg-1.png');">
-            <span class="circle-location">Austin, Texas</span>
-          </a>
+
+          <?php endwhile; ?>
+
+          <?php endif; ?>
+
         </div>
       </div>
     </div>

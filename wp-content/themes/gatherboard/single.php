@@ -5,8 +5,10 @@
 
 <div class="page-billboard" style="background-image: url('<?php echo $featured_image ?>');">
 	<div class="container-fluid">
-		<h1>GatherBoard Blog</h1>
-		<h2>Bring your community together</h2>
+		<a href="/blog/">
+      <h1>GatherBoard Blog</h1>
+		  <h2>Bring your community together</h2>
+    </a>
 	</div>
 </div>
 

@@ -1,0 +1,43 @@
+.page {
+  .gform_wrapper {
+    label {
+      font-weight: normal;
+    }
+    .gform_footer input.button,
+    .gform_footer input[type=submit],
+    .gform_page_footer input.button,
+    .gform_page_footer input[type=submit] {
+      @extend .btn;
+      @extend .btn-primary;
+      font-size: 21px;
+    }
+    &.gf_browser_chrome .gfield_checkbox li input,
+    &.gf_browser_chrome .gfield_checkbox li input[type=checkbox],
+    &.gf_browser_chrome .gfield_radio li input[type=radio] {
+      margin-top: 0;
+    }
+    .gfield_radio li label,
+    .gfield_checkbox li label {
+      margin-left: 8px;
+    }
+  }
+}
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Large desktop and up
+@media (min-width: 1200px) {}
+
+// Desktop to large desktop
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+// Tablet to desktop
+@media (min-width: 768px) and (max-width: 991px) {}
+
+// Up to tablet
+@media (max-width: 767px) {}
+
+// Up to landscape phone
+@media (max-width: 480px) {}

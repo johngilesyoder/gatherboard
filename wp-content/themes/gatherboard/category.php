@@ -26,7 +26,7 @@
           <?php endif; ?>
           <?php wp_list_categories( array(
             'orderby'            => 'name',
-            'include'            => array( 6, 7, 8 ),
+            'include'            => array( 9, 10, 11 ),
             'hide_empty'         => 0,
             'title_li'           => '',
           ) ); ?>

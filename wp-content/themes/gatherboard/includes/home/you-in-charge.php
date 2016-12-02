@@ -1,24 +1,47 @@
+<?php
+  $home_section_four_title = get_field( "home_section_four_title", false, false );
+?>
+
 <section class="home-you-in-charge">
   <div class="quotes">
     <div id="carousel-quotes" class="carousel slide">
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
-        <div class="item active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/quotes-bg.png')">
-          <blockquote class="success-story-quote inverted">
-            <small>Success Story</small>
-            <p>&ldquo;Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.&rdquo;</p>
-            <footer>Sophia Pierro <cite>Cleveland Downtown Association</cite></footer>
-          </blockquote>
-        </div>
-        <div class="item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/quotes-bg.png')">
-          <blockquote class="success-story-quote inverted">
-            <small>Success Story</small>
-            <p>&ldquo;Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.&rdquo;</p>
-            <footer>Sophia Pierro <cite>Cleveland Downtown Association</cite></footer>
-          </blockquote>
-        </div>
+
+        <?php if( have_rows('home_quotes_carousel') ): ?>
+
+          <?php $count = 0; ?>
+
+          <?php while( have_rows('home_quotes_carousel') ): the_row();
+
+            // vars
+            $quotes_panel_background_photo = get_sub_field('quotes_panel_background_photo');
+            $home_quote_author = get_sub_field('home_quote_author');
+            $home_quote_author_organization = get_sub_field('home_quote_author_organization');
+            $home_quote_text = get_sub_field('home_quote_text');
+
+            ?>
+            <?php if (!$count) : ?>
+              <div class="item active" style="background-image: url('<?php echo $quotes_panel_background_photo['url']; ?>')">
+            <?php else : ?>
+              <div class="item" style="background-image: url('<?php echo $quotes_panel_background_photo['url']; ?>')">
+            <?php endif; ?>
+                <blockquote class="success-story-quote inverted">
+                  <small>Success Story</small>
+                  <?php echo $home_quote_text ?>
+                  <footer><?php echo $home_quote_author ?> <cite><?php echo $home_quote_author_organization ?></cite></footer>
+                </blockquote>
+              </div>
+
+            <?php $count++; ?>
+
+          <?php endwhile; ?>
+
+        <?php endif; ?>
+        
       </div>
+
       <!-- Controls -->
       <a class="left carousel-control" href="#carousel-quotes" data-slide="prev">
         <i class="zmdi zmdi-chevron-left"></i>
@@ -32,11 +55,24 @@
   </div>
   <div class="check-list-wrapper">
     <div class="check-list">
-      <h2 class="section-title">The calendar platform that puts you in charge.</h2>
+      <h2 class="section-title"><?php echo $home_section_four_title ?></h2>
       <ul>
-        <li>Boost your website traffic and search engine ranking</li>
-        <li>Grow your brand while serving the community as a central hub.</li>
-        <li>Increase revenue and fundraising opportunities.</li>
+
+        <?php if( have_rows('home_section_four_benefit_list') ): ?>
+
+          <?php while( have_rows('home_section_four_benefit_list') ): the_row();
+
+            // vars
+            $home_section_four_benefit = get_sub_field('home_section_four_benefit');
+
+            ?>
+
+            <li><?php echo $home_section_four_benefit ?></li>
+
+          <?php endwhile; ?>
+
+        <?php endif; ?>
+
       </ul>
     </div>
   </div>

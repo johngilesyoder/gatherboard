@@ -113,14 +113,23 @@
 
   .site-footer {
     padding: 40px 0;
+    text-align: center;
     .footer-about {
       margin: 0 0 30px;
     }
     .footer-bottom {
       margin: 30px 0 0;
     }
+    .footer-copyright {
+      margin: 0 0 30px;
+      ul {
+        margin-left: 0;
+
+        display: block;
+      }
+    }
     .footer-social {
-      text-align: left;
+      text-align: center;;
     }
   }
 
@@ -131,7 +140,7 @@
 
   .site-footer {
     padding: 30px 0;
-    text-align: center;
+
     .col-xs-4 {
       width: 50%;
       &:last-child {
@@ -142,9 +151,6 @@
     }
     .links-column {
       margin-bottom: 30px;
-    }
-    .footer-copyright {
-      margin: 0 0 30px;
     }
     .footer-social {
       text-align: center;

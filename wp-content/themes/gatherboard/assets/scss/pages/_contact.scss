@@ -1,8 +1,10 @@
 // contact.scss
 // -----------------------------------------------------------------
 
-.contact-us {
-
+.page-template-template-contact {
+  .hentry {
+    margin: 0 0 60px;
+  }
 }
 
 // Media Queries
@@ -15,24 +17,26 @@
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 // Tablet to desktop
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {}
 
-  .contact-us {
-    .contact-methods {
-      margin: 0 0 50px;
+// Up to tablet
+@media (max-width: 767px) {
+
+  .page-template-template-contact {
+    .hentry {
+      margin: 0 0 40px;
     }
   }
 
 }
 
-// Up to tablet
-@media (max-width: 767px) {
+// Up to landscape phone
+@media (max-width: 480px) {
 
-  .contact-us {
-
+  .page-template-template-contact {
+    .hentry {
+      margin: 0 0 30px;
+    }
   }
 
 }
-
-// Up to landscape phone
-@media (max-width: 480px) {}

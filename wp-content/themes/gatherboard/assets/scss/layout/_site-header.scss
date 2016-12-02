@@ -84,7 +84,11 @@
               border-color: $link-hover-color;
               text-decoration: none;
             }
+            &:after {
+              display: none;
+            }
           }
+
         }
       }
       .dropdown-toggle {

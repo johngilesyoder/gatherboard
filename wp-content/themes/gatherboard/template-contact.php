@@ -13,8 +13,11 @@
 
 					<?php the_content(); ?>
 
+
 				</article>
 				<!-- /article -->
+
+				<?php gravity_form(1, false, false, false, '', true); ?>
 
 			<?php endwhile; ?>
 

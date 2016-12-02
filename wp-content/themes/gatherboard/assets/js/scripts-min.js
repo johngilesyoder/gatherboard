@@ -1,0 +1,1 @@
+!function($,t,a){$(function(){"use strict";function t(){var t=$("body").find('[data-toggle="modal"]');t.click(function(){var t=$(this).data("target"),a=$(this).attr("data-theVideo"),i=a+"?autoplay=1";$(t+" iframe").attr("src",i),$(t+" button.close").click(function(){$(t+" iframe").attr("src",a)})})}t()})}(jQuery,this);

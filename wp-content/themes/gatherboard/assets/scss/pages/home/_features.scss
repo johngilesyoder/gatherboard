@@ -5,6 +5,20 @@
   }
   .actions {
     text-align: center;
+    .btn-link {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .btn {
+      margin-right: 10px;
+      margin-bottom: 15px;
+      i {
+        margin-right: 10px;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 }
 

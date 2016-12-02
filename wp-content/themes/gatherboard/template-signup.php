@@ -16,6 +16,8 @@
 				</article>
 				<!-- /article -->
 
+				<?php gravity_form(2, false, false, false, '', true); ?>
+
 			<?php endwhile; ?>
 
 			<?php else: ?>
@@ -27,6 +29,7 @@
 
 				</article>
 				<!-- /article -->
+
 
 			<?php endif; ?>
 

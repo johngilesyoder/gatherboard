@@ -89,6 +89,19 @@
       color: $green;
       font-weight: 400;
     }
+    .actions {
+      .btn-action {
+        margin-right: 10px;
+        margin-bottom: 15px;
+        i {
+          margin-right: 10px;
+        }
+      }
+      .btn-link {
+        background: #fff;
+        border-radius: 100px;
+      }
+    }
   }
 }
 
