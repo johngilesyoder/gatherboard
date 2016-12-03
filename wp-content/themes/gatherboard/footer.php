@@ -65,6 +65,7 @@
     </div>
 
 		<?php wp_footer(); ?>
-
+    
+    <script id="dsq-count-scr" src="//gatherboard.disqus.com/count.js" async></script>
 	</body>
 </html>
