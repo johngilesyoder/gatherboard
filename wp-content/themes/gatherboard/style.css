@@ -1,4 +1,4 @@
-@import url('style-blessed1.css?z=1480722006417');
+@import url('style-blessed1.css?z=1480736941569');
 
 
 .single .type-post .post-img {
@@ -101,6 +101,9 @@
     margin-left: 5px; }
     .single .post-share-bottom .share-pinterest span {
       vertical-align: bottom; }
+
+.single .blog-comments {
+  margin: 0 0 30px; }
 
 @media (max-width: 767px) {
   .single .page-billboard {
