@@ -32,7 +32,7 @@
                 <div class="feature-description">
                   <?php echo $home_feature_description; ?>
                   <?php if($home_feature_video_link) : ?>
-                    <a href="#" class="video-link"><i class="zmdi zmdi-play"></i>Watch video</a>
+                    <a href="#" class="video-link" data-toggle="modal" data-target="#videoModal" data-theVideo="<?php echo $home_feature_video_link ?>"><i class="zmdi zmdi-play"></i>Watch video</a>
                   <?php endif; ?>
                 </div>
               </div>

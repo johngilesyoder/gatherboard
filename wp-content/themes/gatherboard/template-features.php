@@ -32,7 +32,7 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10">
 					<div class="features-video">
-						<div class="video-thumb" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/features-video-thumbnail.png');">
+						<div class="video-thumb" style="background-image:url('<?php echo $video_thumbnail['url']; ?>');">
 							<div class="btn-wrapper">
 								<button class="btn-play" data-toggle="modal" data-target="#videoModal" data-theVideo="<?php the_field('demo_video_embed_url', 'option'); ?>"><i class="zmdi zmdi-play-circle"></i></button>
 							</div>
@@ -65,7 +65,7 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 										<div class="feature-description">
 											<?php echo $section_one_feature_description; ?>
 											<?php if($section_one_feature_video_link) : ?>
-		                    <a href="#" class="video-link"><i class="zmdi zmdi-play"></i>Watch video</a>
+		                    <a href="#" class="video-link" data-toggle="modal" data-target="#videoModal" data-theVideo="<?php echo $section_one_feature_video_link ?>"><i class="zmdi zmdi-play"></i>Watch video</a>
 		                  <?php endif; ?>
 										</div>
 									</div>
@@ -105,7 +105,7 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 									<div class="feature-description">
 										<?php echo $section_two_feature_description; ?>
 										<?php if($section_two_feature_video_link) : ?>
-	                    <a href="#" class="video-link"><i class="zmdi zmdi-play"></i>Watch video</a>
+	                    <a href="#" class="video-link" data-toggle="modal" data-target="#videoModal" data-theVideo="<?php echo $section_two_feature_video_link ?>"><i class="zmdi zmdi-play"></i>Watch video</a>
 	                  <?php endif; ?>
 									</div>
 								</div>
@@ -144,7 +144,7 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 									<div class="feature-description">
 										<?php echo $section_three_feature_description; ?>
 										<?php if($section_three_feature_video_link) : ?>
-	                    <a href="#" class="video-link"><i class="zmdi zmdi-play"></i>Watch video</a>
+	                    <a href="#" class="video-link" data-toggle="modal" data-target="#videoModal" data-theVideo="<?php echo $section_three_feature_video_link ?>"><i class="zmdi zmdi-play"></i>Watch video</a>
 	                  <?php endif; ?>
 									</div>
 								</div>
@@ -182,7 +182,7 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 									<div class="feature-description">
 										<?php echo $section_four_feature_description; ?>
 										<?php if($section_four_feature_video_link) : ?>
-	                    <a href="#" class="video-link"><i class="zmdi zmdi-play"></i>Watch video</a>
+	                    <a href="#" class="video-link" data-toggle="modal" data-target="#videoModal" data-theVideo="<?php echo $section_four_feature_video_link ?>"><i class="zmdi zmdi-play"></i>Watch video</a>
 	                  <?php endif; ?>
 									</div>
 								</div>
