@@ -92,7 +92,7 @@
                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
                 var disqus_config = function () {
-                this.page.url = '<?php echo the_permalink; ?>';  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.url = '<?php echo the_permalink(); ?>';  // Replace PAGE_URL with your page's canonical URL variable
                 this.page.identifier = '<?php echo dsq_identifier_for_post($post); ?>'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                 };
 
