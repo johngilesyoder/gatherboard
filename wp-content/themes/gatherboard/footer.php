@@ -30,8 +30,8 @@
                     <div class="footer-copyright">
                       <p>&copy; Gatherboard <?php echo date('Y'); ?>. All rights reserved.</p>
                       <ul>
-                        <li><a href="">Terms</a></li>
-                        <li><a href="">Privacy</a></li>
+                        <li><a href="/terms-of-use/">Terms</a></li>
+                        <li><a href="/privacy-policy">Privacy</a></li>
                       </ul>
                     </div>
                   </div>
@@ -65,7 +65,7 @@
     </div>
 
 		<?php wp_footer(); ?>
-    
+
     <script id="dsq-count-scr" src="//gatherboard.disqus.com/count.js" async></script>
 	</body>
 </html>
