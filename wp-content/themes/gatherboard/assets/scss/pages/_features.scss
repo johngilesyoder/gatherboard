@@ -65,21 +65,49 @@
   }
 }
 
-.features-optimized .features-wrapper .feature .feature-icon {
-  background: #DAE7F3;
-  color: $blue;
+.features-optimized .features-wrapper .feature {
+  .feature-icon {
+    background: #DAE7F3;
+    color: $blue;
+  }
+  &.highlight {
+    .feature-icon {
+      border-color: $blue;
+    }
+  }
 }
 
-.features-easy-to-use .features-wrapper .feature .feature-icon {
-  background: #F3E0DA;
-  color: $red;
+.features-everything .features-wrapper .feature {
+  &.highlight {
+    .feature-icon {
+      border-color: $green;
+    }
+  }
 }
 
-.features-management .features-wrapper .feature .feature-icon {
-  background: #FDF1DC;
-  color: $orange;
+.features-easy-to-use .features-wrapper .feature {
+  .feature-icon {
+    background: #F3E0DA;
+    color: $red;
+  }
+  &.highlight {
+    .feature-icon {
+      border-color: $red;
+    }
+  }
 }
 
+.features-management .features-wrapper .feature {
+  .feature-icon {
+    background: #FDF1DC;
+    color: $orange;
+  }
+  &.highlight {
+    .feature-icon {
+      border-color: $orange;
+    }
+  }
+}
 
 // Media Queries
 // --------------------------------------------------

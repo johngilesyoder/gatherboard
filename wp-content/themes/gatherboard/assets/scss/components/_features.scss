@@ -16,6 +16,12 @@
     &:nth-child(3) {
       border-top: 0;
     }
+    &.highlight {
+      .feature-icon {
+        border: 3px solid transparent;
+        line-height: 54px;
+      }
+    }
     .feature-icon {
       color: $green;
       font-size: 24px;

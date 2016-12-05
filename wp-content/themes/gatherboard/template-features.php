@@ -57,11 +57,13 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 									$section_one_feature_title = get_sub_field('section_one_feature_title');
 									$section_one_feature_description = get_sub_field('section_one_feature_description');
 									$section_one_feature_video_link = get_sub_field('section_one_feature_video_link');
+									$highlight_feature = get_sub_field('highlight_feature');
 									?>
 
-									<div class="feature">
+									<div class="feature <?php if( $highlight_feature ): ?>highlight<?php endif; ?>">
+
 										<span class="feature-icon"><i class="zmdi <?php echo $section_one_feature_icon; ?>"></i></span>
-										<h3 class="feature-title"><?php echo $section_one_feature_title; ?></h3>
+										<h3 class="feature-title"><?php if( $highlight_feature ): ?><i class="zmdi zmdi-star"></i> <?php endif; ?><?php echo $section_one_feature_title; ?></h3>
 										<div class="feature-description">
 											<?php echo $section_one_feature_description; ?>
 											<?php if($section_one_feature_video_link) : ?>
@@ -97,11 +99,12 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 								$section_two_feature_title = get_sub_field('section_two_feature_title');
 								$section_two_feature_description = get_sub_field('section_two_feature_description');
 								$section_two_feature_video_link = get_sub_field('section_two_feature_video_link');
+								$highlight_feature = get_sub_field('highlight_feature');
 								?>
 
-								<div class="feature">
+								<div class="feature <?php if( $highlight_feature ): ?>highlight<?php endif; ?>">
 									<span class="feature-icon"><i class="zmdi <?php echo $section_two_feature_icon; ?>"></i></span>
-									<h3 class="feature-title"><?php echo $section_two_feature_title; ?></h3>
+									<h3 class="feature-title"><?php if( $highlight_feature ): ?><i class="zmdi zmdi-star"></i> <?php endif; ?><?php echo $section_two_feature_title; ?></h3>
 									<div class="feature-description">
 										<?php echo $section_two_feature_description; ?>
 										<?php if($section_two_feature_video_link) : ?>
@@ -136,11 +139,12 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 								$section_three_feature_title = get_sub_field('section_three_feature_title');
 								$section_three_feature_description = get_sub_field('section_three_feature_description');
 								$section_three_feature_video_link = get_sub_field('section_three_feature_video_link');
+								$highlight_feature = get_sub_field('highlight_feature');
 								?>
 
-								<div class="feature">
+								<div class="feature <?php if( $highlight_feature ): ?>highlight<?php endif; ?>">
 									<span class="feature-icon"><i class="zmdi <?php echo $section_three_feature_icon; ?>"></i></span>
-									<h3 class="feature-title"><?php echo $section_three_feature_title; ?></h3>
+									<h3 class="feature-title"><?php if( $highlight_feature ): ?><i class="zmdi zmdi-star"></i> <?php endif; ?><?php echo $section_three_feature_title; ?></h3>
 									<div class="feature-description">
 										<?php echo $section_three_feature_description; ?>
 										<?php if($section_three_feature_video_link) : ?>
@@ -174,11 +178,12 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 								$section_four_feature_title = get_sub_field('section_four_feature_title');
 								$section_four_feature_description = get_sub_field('section_four_feature_description');
 								$section_four_feature_video_link = get_sub_field('section_four_feature_video_link');
+								$highlight_feature = get_sub_field('highlight_feature');
 								?>
 
-								<div class="feature">
+								<div class="feature <?php if( $highlight_feature ): ?>highlight<?php endif; ?>">
 									<span class="feature-icon"><i class="zmdi <?php echo $section_four_feature_icon; ?>"></i></span>
-									<h3 class="feature-title"><?php echo $section_four_feature_title; ?></h3>
+									<h3 class="feature-title"><?php if( $highlight_feature ): ?><i class="zmdi zmdi-star"></i> <?php endif; ?><?php echo $section_four_feature_title; ?></h3>
 									<div class="feature-description">
 										<?php echo $section_four_feature_description; ?>
 										<?php if($section_four_feature_video_link) : ?>
