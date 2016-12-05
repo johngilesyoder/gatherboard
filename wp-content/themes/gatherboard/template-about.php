@@ -26,16 +26,24 @@ $team_photo 								= get_field( "team_photo" );
 							<?php the_content(); ?>
 						</div>
 						<div class="row">
-							<div class="col-sm-6 col-md-5">
-								<div class="license-holders" style="background-image:url('<?php echo $license_holders_background['url']; ?>');">
-									<p class="license-holders-content">
-										Current GatherBoard license holders
-										<a href="#">Click to view</a>
-									</p>
+							<div id="map-replacement" class="map-replacement" style="display: none;">
+								<div class="col-md-12">
+									<button id="map-toggle-close" class="btn-close"><i class="zmdi zmdi-close"></i>Close</button>
+									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/license-holders-map.png" alt="License Holders">
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-7">
-								<div class="company-photo" style="background-image:url('<?php echo $team_photo['url']; ?>');"></div>
+							<div id="company-photos" class="company-photos">
+								<div class="col-sm-6 col-md-5">
+									<div class="license-holders" style="background-image:url('<?php echo $license_holders_background['url']; ?>');">
+										<p class="license-holders-content">
+											Current GatherBoard license holders
+											<button id="map-toggle-open">Click to view</button>
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-6 col-md-7">
+									<div class="company-photo" style="background-image:url('<?php echo $team_photo['url']; ?>');"></div>
+								</div>
 							</div>
 						</div>
 					</section>

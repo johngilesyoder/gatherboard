@@ -8285,14 +8285,37 @@ main {
       font-weight: 500;
       line-height: 1em;
       margin: 0; }
-    .page-template-template-about .about-company .license-holders a {
+    .page-template-template-about .about-company .license-holders button {
       color: #fff;
       font-size: 13px;
       text-transform: uppercase;
       letter-spacing: 2px;
       display: block;
       font-weight: 400;
-      margin: 10px 0 0; }
+      margin: 10px auto 0;
+      background: transparent;
+      border: 0; }
+
+.page-template-template-about .map-replacement {
+  position: relative; }
+  .page-template-template-about .map-replacement .btn-close {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.45);
+    padding: 5px 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px; }
+    .page-template-template-about .map-replacement .btn-close:hover {
+      background: black; }
+    .page-template-template-about .map-replacement .btn-close i {
+      margin-right: 10px; }
 
 .page-template-template-about .about-founders {
   margin: 0 0 60px; }
@@ -8630,10 +8653,3 @@ main {
     background-position: 50% 25%;
     background-repeat: no-repeat;
     padding-bottom: 60px; } }
-
-@media (max-width: 767px) {
-  .page-template-template-features .features-optimized {
-    background: none;
-    padding-bottom: 40px; }
-    .page-template-template-features .features-optimized .features-video .video-thumb {
-      height: 320px; } }

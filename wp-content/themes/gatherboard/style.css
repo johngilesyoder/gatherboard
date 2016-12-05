@@ -1,5 +1,12 @@
-@import url('style-blessed1.css?z=1480961170768');
+@import url('style-blessed1.css?z=1480967485831');
 
+
+@media (max-width: 767px) {
+  .page-template-template-features .features-optimized {
+    background: none;
+    padding-bottom: 40px; }
+    .page-template-template-features .features-optimized .features-video .video-thumb {
+      height: 320px; } }
 
 @media (max-width: 480px) {
   .page-template-template-features .features-optimized {
