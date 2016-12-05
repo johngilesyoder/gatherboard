@@ -1,5 +1,11 @@
-@import url('style-blessed1.css?z=1480737012699');
+@import url('style-blessed1.css?z=1480908412530');
 
+  .single .page-billboard h2 {
+    font-size: 21px;
+    text-transform: none;
+    font-weight: 400 !important;
+    display: inline-block;
+    margin: 0; }
 
 .single .type-post .post-img {
   display: block;
