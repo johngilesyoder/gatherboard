@@ -1,3 +1,5 @@
+<?php $seo_block = get_field( "seo_block" ); ?>
+
       <footer class="site-footer" role="contentinfo">
         <div class="container-fluid">
           <div class="row">
@@ -5,7 +7,11 @@
               <div class="row">
                 <div class="col-md-5">
                   <div class="footer-about">
-                    <?php the_field('footer_seo_block', 'option'); ?>
+                    <?php if($seo_block) : ?>
+                      <?php echo $seo_block ?>
+                    <?php else : ?>
+                      <?php the_field('footer_seo_block', 'option'); ?>
+                    <?php endif; ?>
                   </div>
                 </div>
                 <div class="col-xs-4 col-md-2 col-md-offset-1">
