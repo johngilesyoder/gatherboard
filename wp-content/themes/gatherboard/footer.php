@@ -43,11 +43,11 @@
                   </div>
                   <div class="col-sm-4">
                     <ul class="footer-social">
-                      <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-facebook.svg" alt="Visit us on Facebook"></a></li>
-                      <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-twitter.svg" alt="Visit us on Twitter"></a></li>
-                      <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-pinterest.svg" alt="Visit us on Pinterest"></a></li>
-                      <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-youtube.svg" alt="Visit us on Youtube"></a></li>
-                      <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-google-plus.svg" alt="Visit us on Google+"></a></li>
+                      <li><a href="https://www.facebook.com/gatherboard"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-facebook.svg" alt="Visit us on Facebook"></a></li>
+                      <li><a href="https://twitter.com/GatherBoard"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-twitter.svg" alt="Visit us on Twitter"></a></li>
+                      <!-- <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-pinterest.svg" alt="Visit us on Pinterest"></a></li> -->
+                      <li><a href="https://www.youtube.com/channel/UC5RW8Vj4PPxUguw2Kpd5xoA"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-youtube.svg" alt="Visit us on Youtube"></a></li>
+                      <li><a href="https://plus.google.com/+Gatherboard"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-google-plus.svg" alt="Visit us on Google+"></a></li>
                     </ul>
                   </div>
                 </div>

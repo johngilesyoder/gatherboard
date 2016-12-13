@@ -2909,6 +2909,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/sections\/about-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/sections\/about-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/sections\/about.js": {
 		"ft": 64,
 		"mi": 1,
