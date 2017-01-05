@@ -1,5 +1,9 @@
 <?php
   $home_section_five_title = get_field( "home_section_five_title", false, false );
+  $home_success_story_author = get_field( "home_success_story_author", false, false );
+  $home_success_story_author_organization = get_field( "home_success_story_author_organization", false, false );
+  $home_success_story_quote = get_field( "home_success_story_quote", false, false );
+  $home_success_story_author_photo = get_field( "home_success_story_author_photo" );
 ?>
 
 <section class="home-built-for">
@@ -66,14 +70,14 @@
           <div class="user-story">
             <div class="row">
               <div class="col-sm-2">
-                <div class="quote-img" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/quote-author.png');">
+                <div class="quote-img" style="background-image:url('<?php echo $home_success_story_author_photo['url']; ?>');">
                 </div>
               </div>
               <div class="col-sm-10">
                 <blockquote class="success-story-quote">
                   <small>Success Story</small>
-                  <p>&ldquo;Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.&rdquo;</p>
-                  <footer>Sarah Connor <cite>Small Business Owner</cite></footer>
+                  <p>&ldquo;<?php echo $home_success_story_quote; ?>&rdquo;</p>
+                  <footer><?php echo $home_success_story_author; ?> <cite><?php echo $home_success_story_author_organization; ?></cite></footer>
                 </blockquote>
               </div>
             </div>
@@ -86,7 +90,7 @@
                   Replacing your current event calendar couldn’t be easier.
                 </p>
                 <div class="actions">
-                  <a href="#" class="btn btn-primary btn-action">Get started now</a>
+                  <a href="/sign-up/" class="btn btn-primary btn-action">Get started now</a>
                   <a href="#" class="btn btn-link btn-action" data-toggle="modal" data-target="#videoModal" data-theVideo="<?php the_field('demo_video_embed_url', 'option'); ?>"><i class="zmdi zmdi-play"></i>Watch demo now</a>
                 </div>
               </div>
