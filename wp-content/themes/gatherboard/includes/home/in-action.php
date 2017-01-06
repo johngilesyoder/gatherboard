@@ -10,9 +10,10 @@
           // vars
           $bubble_photo = get_sub_field('bubble_photo');
           $bubble_location = get_sub_field('bubble_location');
+          $bubble_link = get_sub_field('bubble_link');
           ?>
 
-          <a href="#" class="action-circle" style="background-image: url('<?php echo $bubble_photo['url']; ?>');">
+          <a href="<?php echo $bubble_link ?>" class="action-circle" style="background-image: url('<?php echo $bubble_photo['url']; ?>');">
             <span class="circle-location"><?php echo $bubble_location ?></span>
           </a>
 
