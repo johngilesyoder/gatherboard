@@ -22,6 +22,9 @@ Tags:
 @import "utilities/wordpress-core";
 @import "utilities/z-index";
 
+// Vendor
+@import "vendor/flickity";
+
 // Components
 @import "components/billboard";
 @import "components/blog-footer";
@@ -59,5 +62,3 @@ Tags:
 @import "pages/features";
 @import "pages/home";
 @import "pages/single";
-
-// Vendor

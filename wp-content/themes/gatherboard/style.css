@@ -1,5 +1,111 @@
-@import url('style-blessed1.css?z=1480967485831');
+@import url('style-blessed1.css?z=1485287896029');
 
+
+@media (max-width: 480px) {
+  .page-template-template-builtfor .page-content {
+    margin: 0 0 30px; }
+  .page-template-template-builtfor .check-list {
+    font-size: 18px;
+    margin: 0 0 40px; }
+    .page-template-template-builtfor .check-list li {
+      margin: 0 0 10px; }
+  .page-template-template-builtfor .signup-form {
+    margin-left: -15px;
+    margin-right: -15px; } }
+
+.page-template-template-contact .hentry {
+  margin: 0 0 60px; }
+
+@media (max-width: 767px) {
+  .page-template-template-contact .hentry {
+    margin: 0 0 40px; } }
+
+@media (max-width: 480px) {
+  .page-template-template-contact .hentry {
+    margin: 0 0 30px; } }
+
+.page-template-template-features .page-billboard {
+  margin: 0; }
+
+.page-template-template-features .features-section .section-title {
+  text-align: center; }
+
+.page-template-template-features .features-section.section-grey {
+  background: #F2F6F7;
+  padding: 60px 0 0;
+  margin: 0 0 60px; }
+
+.page-template-template-features .features-optimized {
+  background-image: url("assets/img/slant-bg-ltblue.svg");
+  background-size: 100%;
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  padding-bottom: 60px; }
+  .page-template-template-features .features-optimized .features-video {
+    text-align: center;
+    margin: 0 0 60px; }
+    .page-template-template-features .features-optimized .features-video .video-thumb {
+      background-color: #fff;
+      width: 720px;
+      max-width: 100%;
+      height: 425px;
+      position: relative;
+      text-align: center;
+      margin: 0 auto;
+      background-size: cover;
+      background-position: 50% 50%;
+      border: 10px solid #fff;
+      box-shadow: 0 15px 35px rgba(50, 50, 134, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+      border-radius: 4px; }
+    .page-template-template-features .features-optimized .features-video .btn-play {
+      background: transparent;
+      border: 0;
+      padding: 0;
+      margin: 0;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 90px; }
+      .page-template-template-features .features-optimized .features-video .btn-play:hover {
+        color: white; }
+  .page-template-template-features .features-optimized .lt-blue-wrapper {
+    background: #F2F6F7; }
+
+.page-template-template-features .actions {
+  text-align: center;
+  margin: 30px 0; }
+  .page-template-template-features .actions .btn-action {
+    padding: 12px 60px; }
+
+.features-optimized .features-wrapper .feature .feature-icon {
+  background: #DAE7F3;
+  color: #0C5FAF; }
+
+.features-optimized .features-wrapper .feature.highlight .feature-icon {
+  border-color: #0C5FAF; }
+
+.features-everything .features-wrapper .feature.highlight .feature-icon {
+  border-color: #00845E; }
+
+.features-easy-to-use .features-wrapper .feature .feature-icon {
+  background: #F3E0DA;
+  color: #9F2200; }
+
+.features-easy-to-use .features-wrapper .feature.highlight .feature-icon {
+  border-color: #9F2200; }
+
+.features-management .features-wrapper .feature .feature-icon {
+  background: #FDF1DC;
+  color: #FFAF17; }
+
+.features-management .features-wrapper .feature.highlight .feature-icon {
+  border-color: #FFAF17; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-template-template-features .features-optimized {
+    background-image: url("assets/img/slant-bg-ltblue.svg");
+    background-size: 100%;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    padding-bottom: 60px; } }
 
 @media (max-width: 767px) {
   .page-template-template-features .features-optimized {

@@ -116,6 +116,9 @@ function html5blank_conditional_scripts() {
     wp_register_script('responsive-slides', get_template_directory_uri() . '/assets/js/lib/responsiveslides.min.js', array(), null, true); // Home scripts
     wp_enqueue_script('responsive-slides'); // Enqueue it!
 
+    wp_register_script('flickity', get_template_directory_uri() . '/assets/bower_components/flickity/dist/flickity.pkgd.min.js', array(), null, true); // Home scripts
+    wp_enqueue_script('flickity'); // Enqueue it!
+
   }
 
   if (is_page_template( 'template-about.php' )) {
