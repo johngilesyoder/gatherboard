@@ -12,6 +12,14 @@
       $( "#company-photos" ).fadeIn();
     });
 
+    $('#map-toggle-open').click(function() {
+      setTimeout(function(){
+      for(var entry in wpgmaps_localize) {
+      InitMap(wpgmaps_localize[entry]['id'],'all',false);
+      }
+      },500);
+    });
+
   });
 
 })(jQuery, this);
