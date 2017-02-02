@@ -29,7 +29,7 @@ $team_photo 								= get_field( "team_photo" );
 							<div id="map-replacement" class="map-replacement" style="display: none;">
 								<div class="col-md-12">
 									<button id="map-toggle-close" class="btn-close"><i class="zmdi zmdi-close"></i>Close</button>
-									<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/assets/img/license-holders-map.png" alt="License Holders">
+									<?php echo do_shortcode( '[wpgmza id="1"]' ); ?>
 								</div>
 							</div>
 							<div id="company-photos" class="company-photos">
