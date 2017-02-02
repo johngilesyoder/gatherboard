@@ -8440,7 +8440,8 @@ main {
     padding: 5px 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 14px; }
+    font-size: 14px;
+    z-index: 100; }
     .page-template-template-about .map-replacement .btn-close:hover {
       background: black; }
     .page-template-template-about .map-replacement .btn-close i {
