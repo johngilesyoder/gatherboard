@@ -203,7 +203,7 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 
 	<div class="container-fluid">
 		<div class="actions">
-			<a href="#" class="btn btn-primary btn-action">Get started today</a>
+			<a href="/sign-up/" class="btn btn-primary btn-action">Get started today</a>
 		</div>
 	</div>
 
