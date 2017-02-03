@@ -43,7 +43,7 @@
 
         </div>
         <div class="actions">
-          <a href="#" class="btn btn-primary">Get started</a>
+          <a href="/sign-up/" class="btn btn-primary">Get started</a>
           <a href="/features/" class="btn btn-link">View more features</a>
           <a href="#" class="btn btn-link btn-action-video" data-toggle="modal" data-target="#videoModal" data-theVideo="<?php the_field('demo_video_embed_url', 'option'); ?>"><i class="zmdi zmdi-play"></i>Watch Demo</a>
         </div>

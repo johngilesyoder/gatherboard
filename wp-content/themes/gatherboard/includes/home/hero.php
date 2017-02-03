@@ -38,7 +38,7 @@
     <div class="hero-statement">
       <h2><?php echo $hero_statement_text ?></h2>
       <div class="hero-actions">
-        <a href="#" class="btn btn-action">Get Started</a>
+        <a href="/sign-up/" class="btn btn-action">Get Started</a>
         <a href="#" class="btn btn-action btn-action-video" data-toggle="modal" data-target="#videoModal" data-theVideo="<?php the_field('demo_video_embed_url', 'option'); ?>"><i class="zmdi zmdi-play"></i> Watch Demo</a>
       </div>
     </div>

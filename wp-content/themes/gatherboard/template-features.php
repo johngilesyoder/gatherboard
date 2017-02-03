@@ -14,7 +14,7 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 			<div class="col-md-offset-3 col-md-6">
 				<h1><?php the_title(); ?></h1>
 				<h2><?php echo $page_subtitle; ?></h2>
-				<a href="#" class="btn btn-action">Get started</a>
+				<a href="/sign-up/" class="btn btn-action">Get started</a>
 			</div>
 		</div>
 	</div>

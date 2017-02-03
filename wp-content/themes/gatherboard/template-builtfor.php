@@ -22,7 +22,7 @@ $page_subtitle = get_field( "page_subtitle" );
 
 					<?php endif; ?>
 				</div>
-				<a href="#" class="btn btn-action">Get started</a>
+				<a href="/sign-up/" class="btn btn-action">Get started</a>
 			</div>
 		</div>
 	</div>
