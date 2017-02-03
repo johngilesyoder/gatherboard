@@ -7,7 +7,7 @@
             <p>The event calendar platform that pays for itself. <br><a href="#">What does this mean?</a></p>
           </div>
           <div class="col-md-4">
-            <a href="#" class="btn btn-primary btn-action">Get started now</a>
+            <a href="/sign-up/" class="btn btn-primary btn-action">Get started now</a>
           </div>
         </div>
       </section>
