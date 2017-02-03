@@ -34,7 +34,7 @@
 
     <!-- Facebook -->
     <!-- =================================== -->
-    <script>
+    <!-- <script>
       window.fbAsyncInit = function() {
         FB.init({
           appId      : '#############',
@@ -50,7 +50,7 @@
          js.src = "//connect.facebook.net/en_US/sdk.js";
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
-    </script>
+    </script> -->
 
 
     <!-- Navbar -->
