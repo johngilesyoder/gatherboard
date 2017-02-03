@@ -5,7 +5,7 @@
 
 	<div class="sidebar-get-started">
 		<span>Create your community</span>
-		<a href="#" class="btn btn-primary btn-action">Get started</a>
+		<a href="/sign-up/" class="btn btn-primary btn-action">Get started</a>
 	</div>
 
 	<div class="sidebar-follow">
