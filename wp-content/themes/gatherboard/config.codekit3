@@ -4378,7 +4378,7 @@
 		},
 	"\/assets\/scss\/style.scss": {
 		"aP": 1,
-		"bl": 1,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -4837,16 +4837,6 @@
 		"oA": 2,
 		"oAP": "\/single.php",
 		"oF": 0
-		},
-	"\/style-blessed1.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/style-blessed1-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/style.css": {
 		"aP": 0,
