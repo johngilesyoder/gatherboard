@@ -67,21 +67,96 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-offset-1 col-md-10">
-          <div class="user-story">
-            <div class="row">
-              <div class="col-sm-2">
-                <div class="quote-img" style="background-image:url('<?php echo $home_success_story_author_photo['url']; ?>');">
-                </div>
-              </div>
-              <div class="col-sm-10">
-                <blockquote class="success-story-quote">
-                  <small>Success Story</small>
-                  <p>&ldquo;<?php echo $home_success_story_quote; ?>&rdquo;</p>
-                  <footer><?php echo $home_success_story_author; ?> <cite><?php echo $home_success_story_author_organization; ?></cite></footer>
-                </blockquote>
-              </div>
+
+
+
+          <div id="carousel-success-stories" class="carousel slide">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+              <?php if( have_rows('home_success_stories') ): ?>
+
+                <?php $count = 0; ?>
+
+                <?php while( have_rows('home_success_stories') ): the_row();
+
+                  // vars
+                  $home_success_story_author              = get_sub_field('home_success_story_author');
+                  $home_success_story_author_organization = get_sub_field('home_success_story_author_organization');
+                  $home_success_story_quote               = get_sub_field('home_success_story_quote');
+                  $home_success_story_author_photo        = get_sub_field('home_success_story_author_photo');
+
+                  ?>
+
+                  <?php if (!$count) : ?>
+                    <div class="user-story item active">
+                  <?php else : ?>
+                    <div class="user-story item">
+                  <?php endif; ?>
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <div class="quote-img" style="background-image:url('<?php echo $home_success_story_author_photo['url']; ?>');">
+                          </div>
+                        </div>
+                        <div class="col-sm-10">
+                          <blockquote class="success-story-quote">
+                            <small>Success Story</small>
+                            <?php echo $home_success_story_quote; ?>
+                            <footer><?php echo $home_success_story_author; ?> <cite><?php echo $home_success_story_author_organization; ?></cite></footer>
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+
+                  <?php $count++; ?>
+
+                <?php endwhile; ?>
+
+              <?php endif; ?>
+
             </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <?php if( have_rows('home_success_stories') ): ?>
+
+                <?php $count = 0; ?>
+
+                <?php while( have_rows('home_success_stories') ): the_row(); ?>
+
+                  <?php if (!$count) : ?>
+                    <li data-target="#carousel-success-stories" data-slide-to="<?php echo $count ?>" class="active"></li>
+                  <?php else : ?>
+                    <li data-target="#carousel-success-stories" data-slide-to="<?php echo $count ?>"></li>
+                  <?php endif; ?>
+
+                  <?php $count++; ?>
+
+                <?php endwhile; ?>
+
+              <?php endif; ?>
+            </ol>
           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <div class="ready" style="background-image:url('<?php echo get_template_directory_uri(); ?>/assets/img/team-bg.png');">
             <div class="row">
               <div class="col-lg-8 col-md-6">

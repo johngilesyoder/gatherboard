@@ -18,6 +18,12 @@
       pause: null,
       keyboard: false
     });
+    $('#carousel-success-stories').carousel({
+      interval: 8000,
+      pause: null,
+      keyboard: false
+    });
+
 
     $('.in-action-carousel').flickity({
       // options

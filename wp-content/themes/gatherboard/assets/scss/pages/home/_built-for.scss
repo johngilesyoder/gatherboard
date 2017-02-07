@@ -57,6 +57,33 @@
   .built-for-bottom {
     background-color: $ltBlue;
   }
+  .carousel {
+    margin: 0 0 30px;
+    .carousel-indicators {
+      bottom: 0;
+      right: 0;
+      margin: 0;
+      width: auto;
+      left: auto;
+      li {
+        background: $darkNavy;
+        opacity: .2;
+        border: 0;
+        width: 8px;
+        height: 8px;
+        margin: 0 0 0 3px;
+        &.active {
+          opacity: 1;
+          border: 0;
+          width: 8px;
+          height: 8px;
+          margin: 0 0 0 3px;
+          background-color: $link-color;
+          border-color: $link-color;
+        }
+      }
+    }
+  }
   .user-story {
     margin: 0 0 60px;
     .quote-img {

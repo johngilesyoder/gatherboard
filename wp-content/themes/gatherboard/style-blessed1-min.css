@@ -7620,6 +7620,29 @@ main {
           line-height: 1.75em; }
   .home-built-for .built-for-bottom {
     background-color: #F2F6F7; }
+  .home-built-for .carousel {
+    margin: 0 0 30px; }
+    .home-built-for .carousel .carousel-indicators {
+      bottom: 0;
+      right: 0;
+      margin: 0;
+      width: auto;
+      left: auto; }
+      .home-built-for .carousel .carousel-indicators li {
+        background: #25313F;
+        opacity: .2;
+        border: 0;
+        width: 8px;
+        height: 8px;
+        margin: 0 0 0 3px; }
+        .home-built-for .carousel .carousel-indicators li.active {
+          opacity: 1;
+          border: 0;
+          width: 8px;
+          height: 8px;
+          margin: 0 0 0 3px;
+          background-color: #0C5FAF;
+          border-color: #0C5FAF; }
   .home-built-for .user-story {
     margin: 0 0 60px; }
     .home-built-for .user-story .quote-img {
@@ -8665,15 +8688,3 @@ main {
   .page-template-template-builtfor .signup-form h4 {
     border-bottom: 1px solid #E9E9EB;
     padding-bottom: 10px; }
-
-@media (max-width: 767px) {
-  .page-template-template-builtfor .page-billboard .perfect-for {
-    margin-bottom: 0; }
-  .page-template-template-builtfor .page-content {
-    margin: 0 0 40px; }
-  .page-template-template-builtfor .check-list {
-    margin: 0 0 40px; }
-    .page-template-template-builtfor .check-list li {
-      margin: 0 0 15px; }
-  .page-template-template-builtfor .signup-form {
-    padding: 15px; } }

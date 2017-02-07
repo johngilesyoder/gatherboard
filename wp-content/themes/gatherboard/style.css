@@ -1,5 +1,17 @@
-@import url('style-blessed1.css?z=1486006880270');
+@import url('style-blessed1.css?z=1486501796102');
 
+
+@media (max-width: 767px) {
+  .page-template-template-builtfor .page-billboard .perfect-for {
+    margin-bottom: 0; }
+  .page-template-template-builtfor .page-content {
+    margin: 0 0 40px; }
+  .page-template-template-builtfor .check-list {
+    margin: 0 0 40px; }
+    .page-template-template-builtfor .check-list li {
+      margin: 0 0 15px; }
+  .page-template-template-builtfor .signup-form {
+    padding: 15px; } }
 
 @media (max-width: 480px) {
   .page-template-template-builtfor .page-content {
