@@ -1,6 +1,6 @@
 # fincalunanuevalodge.com
 
-Wordpress website for Finca Luna Nueva Lodge built using [HTML5 Blank](http://html5blank.com).
+Wordpress website for Gatherboard built using [HTML5 Blank](http://html5blank.com).
 
 To get started:
 
