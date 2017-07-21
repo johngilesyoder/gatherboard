@@ -22,7 +22,7 @@ $features_section_four_title 			= get_field( "features_section_four_title" );
 
 <!-- Features -->
 <!-- =================================== -->
-<?php get_template_part( 'includes/mobile-app' ); ?>
+<?php //get_template_part( 'includes/mobile-app' ); ?>
 
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 

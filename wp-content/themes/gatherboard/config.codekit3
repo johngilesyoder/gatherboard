@@ -7,7 +7,7 @@
 		"uuidString": "A9FC3A36-D192-4BED-BA89-280DF7894667"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25849",
 "files": {
 	"\/404.php": {
 		"ft": 8192,
@@ -2851,7 +2851,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/icons\/favicon.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/icons\/touch.png": {
 		"ft": 32768,
@@ -2859,7 +2862,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/icons\/touch.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/action-bg-1.png": {
 		"ft": 32768,
@@ -2867,7 +2873,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/action-bg-1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/action-location-bg-blue.png": {
 		"ft": 32768,
@@ -2875,7 +2884,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/action-location-bg-blue.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/action-location-bg-green.png": {
 		"ft": 32768,
@@ -2883,7 +2895,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/action-location-bg-green.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/action-location-bg-red.png": {
 		"ft": 32768,
@@ -2891,7 +2906,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/action-location-bg-red.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/app-devices.png": {
 		"ft": 32768,
@@ -2899,7 +2917,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/app-devices.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/billboard-about.png": {
 		"ft": 32768,
@@ -2907,7 +2928,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/billboard-about.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/billboard-blog.png": {
 		"ft": 32768,
@@ -2915,7 +2939,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/billboard-blog.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/billboard-entrepreneurs.png": {
 		"ft": 32768,
@@ -2923,7 +2950,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/billboard-entrepreneurs.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/billboard-feature.png": {
 		"ft": 32768,
@@ -2931,7 +2961,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/billboard-feature.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/billboard-institutions.png": {
 		"ft": 32768,
@@ -2939,7 +2972,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/billboard-institutions.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/billboard-media.png": {
 		"ft": 32768,
@@ -2947,7 +2983,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/billboard-media.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/billboard-organizations.png": {
 		"ft": 32768,
@@ -2955,7 +2994,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/billboard-organizations.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/built-for-entrepreneurs.png": {
 		"ft": 32768,
@@ -2963,7 +3005,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/built-for-entrepreneurs.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/built-for-institutions.png": {
 		"ft": 32768,
@@ -2971,7 +3016,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/built-for-institutions.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/built-for-media.png": {
 		"ft": 32768,
@@ -2979,7 +3027,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/built-for-media.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/built-for-organizations.png": {
 		"ft": 32768,
@@ -2987,7 +3038,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/built-for-organizations.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/company-photo.png": {
 		"ft": 32768,
@@ -2995,7 +3049,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/company-photo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/featured-event-rainbow.svg": {
 		"ft": 2097152,
@@ -3013,7 +3070,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/features-video-thumbnail.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/founder-colin.png": {
 		"ft": 32768,
@@ -3021,7 +3081,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/founder-colin.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/founder-molly.png": {
 		"ft": 32768,
@@ -3029,7 +3092,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/founder-molly.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/hero-bg-1.png": {
 		"ft": 32768,
@@ -3037,7 +3103,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/hero-bg-1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/hero-bg-2.png": {
 		"ft": 32768,
@@ -3045,7 +3114,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/hero-bg-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/hero-statement-tail.svg": {
 		"ft": 2097152,
@@ -3163,7 +3235,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/license-holders-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/license-holders-map.png": {
 		"ft": 32768,
@@ -3171,7 +3246,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/license-holders-map.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/next-level-bg.png": {
 		"ft": 32768,
@@ -3179,7 +3257,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/next-level-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/press-icon-ideamensch.png": {
 		"ft": 32768,
@@ -3187,7 +3268,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/press-icon-ideamensch.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/press-icon-independent.png": {
 		"ft": 32768,
@@ -3195,7 +3279,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/press-icon-independent.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/press-icon-mamalode.png": {
 		"ft": 32768,
@@ -3203,7 +3290,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/press-icon-mamalode.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/press-icon-million-cups.png": {
 		"ft": 32768,
@@ -3211,7 +3301,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/press-icon-million-cups.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/press-icon-million.png": {
 		"ft": 32768,
@@ -3219,7 +3312,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/press-icon-million.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/press-icon-mtusesthis.png": {
 		"ft": 32768,
@@ -3227,7 +3323,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/press-icon-mtusesthis.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/press-icon-zoofm.png": {
 		"ft": 32768,
@@ -3235,7 +3334,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/press-icon-zoofm.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/quote-author.png": {
 		"ft": 32768,
@@ -3243,7 +3345,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/quote-author.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/quotes-bg.png": {
 		"ft": 32768,
@@ -3251,7 +3356,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/quotes-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/site-logo-inverted.svg": {
 		"ft": 2097152,
@@ -3299,7 +3407,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/team-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/img\/video-thumbnail-bg.png": {
 		"ft": 32768,
@@ -3307,7 +3418,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/video-thumbnail-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/js\/lib\/animation.gsap.js": {
 		"ft": 64,
@@ -4812,7 +4926,10 @@
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/search.php": {
 		"ft": 8192,
@@ -5577,6 +5694,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -5861,6 +5982,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -6056,6 +6181,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -6656,7 +6785,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -6679,14 +6809,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -6749,7 +6871,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -6834,6 +6958,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
